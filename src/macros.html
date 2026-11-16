@@ -1,0 +1,14 @@
+{#- Macro condivise: icone, foto responsive, marchio -#}
+{% macro icon(name, cls='') -%}
+<svg class="icon {{ cls }}" aria-hidden="true" focusable="false"><use href="#i-{{ name }}"></use></svg>
+{%- endmacro %}
+{% macro photo(slug, sizes='100vw', cls='', eager=False, alt=None) -%}
+{% set p = photos.get(slug) %}
+{% if p %}
+{% set base = root ~ 'assets/img/photos/' ~ slug %}
+<img class="{{ cls }}" src="{{ base }}-1024.webp" srcset="{{ base }}-640.webp 640w, {{ base }}-1024.webp 1024w, {{ base }}-1600.webp 1600w{% if p.has_2400 %}, {{ base }}-2400.webp 2400w{% endif %}" sizes="{{ sizes }}" width="{{ p.width_1600 }}" height="{{ p.height_1600 }}" alt="{{ p['alt_' ~ lang.code] if alt is none else alt }}" {% if eager %}fetchpriority="high"{% else %}loading="lazy"{% endif %} decoding="async" style="background-color:{{ p.dominant }}{% if p.get('focus') %};object-position:{{ p.focus }}{% endif %}">
+{% endif %}
+{%- endmacro %}
+{% macro wordmark(cls='') -%}
+<span class="wordmark {{ cls }}"><span>H</span>orses of <span>F</span>lorence</span>
+{%- endmacro %}

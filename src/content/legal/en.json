@@ -1,0 +1,72 @@
+{
+  "labels": {
+    "privacy": "Privacy & cookies",
+    "back_home": "Back to the website",
+    "updated": "Last updated",
+    "vat": "VAT no.",
+    "todo": "to be completed",
+    "on_this_page": "On this page"
+  },
+  "privacy": {
+    "title": "Privacy and cookie notice",
+    "meta_description": "How Horses of Florence processes the personal data of people who visit the website or ask for information. The website uses no cookies.",
+    "intro": "This notice, provided under Article 13 of Regulation (EU) 2016/679 (the “GDPR”), explains how we process the personal data of people who visit the Horses of Florence website, ask for information or take part in our activities. In short: the website uses no cookies or analytics tools, and the data you send us is used only to reply to you and to organise your experience.",
+    "sections": [
+      {
+        "id": "titolare",
+        "title": "Data controller",
+        "html": "<p>The data controller is <strong>%%owner_name%%</strong>, %%owner_address%%, tax code/VAT no. %%owner_tax_id%%, who runs the Horses of Florence project and the website %%site_url%%.</p><p>For questions about this notice or to exercise your rights, write to <a href=\"mailto:%%email%%\">%%email%%</a>.</p>"
+      },
+      {
+        "id": "dati-trattati",
+        "title": "What data we process",
+        "html": "<p><strong>Browsing the website.</strong> The website is static and hosted on GitHub Pages, a service of GitHub, Inc. (United States, Microsoft group). To serve the pages, GitHub receives the IP address of visitors and logs it for security purposes. The website sets no cookies, stores nothing in your browser and loads no third-party resources: fonts and images are hosted on the website itself.</p><p><strong>Information requests.</strong> The “Contact” form sends nothing by itself: it prepares a message that you can review and send with WhatsApp or your email app. We therefore process the data you choose to share with us: your name, contact details, interests, dates, number of riders, whether you will bring your own horse and anything you tell us about yourself and your riding experience.</p><p><strong>Taking part in activities.</strong> To organise the sessions with the horses we may need some additional information, such as your riding experience and, if you bring your own horse, the details needed to stable it at our partner centre.</p>"
+      },
+      {
+        "id": "finalita-basi-giuridiche",
+        "title": "Purposes and legal bases",
+        "html": "<ul><li><strong>Website security</strong> (IP addresses logged by GitHub): legitimate interest in protecting the website from abuse and cyber attacks (Art. 6(1)(f) GDPR).</li><li><strong>Replying to requests and organising activities</strong>: steps taken at your request before entering into a contract, and performance of the contract (Art. 6(1)(b) GDPR).</li><li><strong>Legal obligations</strong>, such as tax and accounting: legal obligation (Art. 6(1)(c) GDPR).</li></ul><p>We carry out no profiling or marketing, and we do not pass data on to third parties for their own purposes.</p>"
+      },
+      {
+        "id": "conferimento",
+        "title": "Do you have to provide your data?",
+        "html": "<p>Providing your data is optional, but without it we cannot reply to you or organise your experience.</p>"
+      },
+      {
+        "id": "conservazione",
+        "title": "How long we keep the data",
+        "html": "<ul><li><strong>Information requests</strong>: for as long as needed to reply and, if no booking follows, no longer than 12 months.</li><li><strong>Activities and bookings</strong>: for the duration of the relationship; tax and accounting records for 10 years, as required by law.</li><li><strong>IP addresses logged by GitHub</strong>: for the periods stated in <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\" target=\"_blank\" rel=\"noopener\">GitHub’s privacy statement</a>.</li></ul><p>After these periods the data is deleted or anonymised.</p>"
+      },
+      {
+        "id": "destinatari",
+        "title": "Who may receive the data",
+        "html": "<p>The data is never made public. It may be shared, only as far as necessary, with:</p><ul><li>technical service providers: GitHub (website hosting), the controller’s email provider and WhatsApp (Meta group), if you choose to write to us with that app;</li><li>our partner riding centre, to organise the sessions with the horses and, where relevant, the stabling of your horse;</li><li>professionals who assist the controller, such as the accountant;</li><li>public authorities, where required by law.</li></ul><p>If you choose to stay at the B&B A spasso con Daisy · Chianti Home, the data for your stay is processed according to the privacy notice published on the B&B website.</p>"
+      },
+      {
+        "id": "trasferimenti-extra-ue",
+        "title": "Transfers outside the European Union",
+        "html": "<p>Some providers, such as GitHub (Microsoft group) and WhatsApp (Meta group), belong to groups based in the United States and may process data outside the European Union. In these cases the transfer is based on the EU-US Data Privacy Framework, recognised as adequate by the European Commission’s decision of 10 July 2023 (Art. 45 GDPR), or on the standard contractual clauses approved by the Commission (Art. 46 GDPR).</p>"
+      },
+      {
+        "id": "cookie",
+        "title": "Cookies",
+        "html": "<p>The website <strong>uses no cookies</strong>, either its own or third-party, and stores no information in your browser (for example in <em>localStorage</em>). It uses no analytics or profiling tools and embeds no external content such as maps, videos or social media widgets. That is why no consent banner appears.</p><p>Links to other websites, such as the B&B’s, WhatsApp or your email app, open only if you choose them: from then on, the privacy notices of those services apply.</p>"
+      },
+      {
+        "id": "diritti",
+        "title": "Your rights",
+        "html": "<p>Under Articles 15 to 22 of the GDPR, you have the right to:</p><ul><li><strong>access</strong> your data and receive a copy;</li><li>have inaccurate or incomplete data <strong>rectified</strong>;</li><li>have your data <strong>erased</strong>, except where it must be kept by law;</li><li>obtain the <strong>restriction</strong> of processing;</li><li>receive the data you provided in a structured, commonly used format (<strong>portability</strong>);</li><li><strong>object</strong> to processing based on legitimate interest.</li></ul><p>To exercise them, simply write to <a href=\"mailto:%%email%%\">%%email%%</a>: you will receive a reply without undue delay and, as a rule, within one month.</p>"
+      },
+      {
+        "id": "reclamo",
+        "title": "Complaints to the supervisory authority",
+        "html": "<p>If you believe that the processing of your data infringes the GDPR, you can lodge a complaint with the Italian Data Protection Authority (<a href=\"https://www.garanteprivacy.it/web/garante-privacy-en\" target=\"_blank\" rel=\"noopener\">Garante per la protezione dei dati personali</a>) or with the supervisory authority of the EU country where you live or work.</p>"
+      },
+      {
+        "id": "modifiche",
+        "title": "Changes to this notice",
+        "html": "<p>This notice may be updated, for example if the services used by the website or the law change. The version in force is always the one published on this page. Last updated: %%updated%%.</p>"
+      }
+    ]
+  }
+}

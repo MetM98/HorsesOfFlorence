@@ -1,0 +1,139 @@
+[
+  {
+    "slug": "mane",
+    "image_id": "photo-1566251037378-5e04e3bec343",
+    "photographer": "",
+    "unsplash_page_url": "",
+    "hero": true,
+    "alt_it": "Cavallo sauro dalla criniera chiara mossa dal vento, contro un cielo azzurro e velato",
+    "alt_en": "Chestnut horse with a pale mane stirred by the wind, against a soft blue sky",
+    "width_1600": 1600,
+    "height_1600": 1067,
+    "dominant": "#adb0aa"
+  },
+  {
+    "slug": "gaze",
+    "image_id": "photo-1598974357801-cbca100e65d3",
+    "photographer": "",
+    "unsplash_page_url": "",
+    "alt_it": "Ritratto di un cavallo sauro con lista bianca, nella luce calda della sera",
+    "alt_en": "Portrait of a chestnut horse with a white blaze, in warm evening light",
+    "width_1600": 1600,
+    "height_1600": 2400,
+    "dominant": "#664f35"
+  },
+  {
+    "slug": "bay",
+    "image_id": "photo-1599053581540-248ea75b59cb",
+    "photographer": "",
+    "unsplash_page_url": "",
+    "alt_it": "Cavallo baio con briglia elegante, ritratto su fondo nero",
+    "alt_en": "Bay horse in an elegant bridle, portrait on a black background",
+    "width_1600": 1600,
+    "height_1600": 2400,
+    "dominant": "#251911"
+  },
+  {
+    "slug": "grazing",
+    "image_id": "photo-1534773728080-33d31da27ae5",
+    "photographer": "",
+    "unsplash_page_url": "",
+    "alt_it": "Cavallo palomino che bruca tranquillo in un prato",
+    "alt_en": "Palomino horse grazing peacefully in a meadow",
+    "width_1600": 1600,
+    "height_1600": 2399,
+    "dominant": "#a29884",
+    "focus": "50% 62%"
+  },
+  {
+    "slug": "white-horse",
+    "image_id": "photo-1553284965-83fd3e82fa5a",
+    "photographer": "",
+    "unsplash_page_url": "",
+    "alt_it": "Cavallo grigio che galoppa libero sul prato, davanti a una siepe scura",
+    "alt_en": "Grey horse cantering freely across the grass, in front of a dark hedge",
+    "width_1600": 1600,
+    "height_1600": 1067,
+    "dominant": "#343c3a"
+  },
+  {
+    "slug": "herd",
+    "image_id": "photo-1452378174528-3090a4bba7b2",
+    "photographer": "",
+    "unsplash_page_url": "",
+    "alt_it": "Tre cavalli bai si affacciano curiosi dalla recinzione del paddock",
+    "alt_en": "Three bay horses peering curiously over the paddock fence",
+    "width_1600": 1600,
+    "height_1600": 1200,
+    "dominant": "#89817b",
+    "focus": "50% 40%"
+  },
+  {
+    "slug": "hills-golden",
+    "image_id": "photo-1566827130010-05083a40e3a7",
+    "photographer": "Alfons Taekema",
+    "unsplash_page_url": "https://unsplash.com/photos/VdAyo0CkbdQ",
+    "width_1600": 1600,
+    "height_1600": 1066,
+    "dominant": "#807557",
+    "alt_it": "Alba dorata sulle colline toscane, con un casale tra i cipressi",
+    "alt_en": "Golden sunrise over the Tuscan hills, with a farmhouse among cypresses"
+  },
+  {
+    "slug": "vineyard",
+    "image_id": "photo-1592153948050-f53ed77dfa14",
+    "photographer": "David Todd McCarty",
+    "unsplash_page_url": "https://unsplash.com/photos/MoU9RTtaxWw",
+    "width_1600": 1600,
+    "height_1600": 1067,
+    "dominant": "#38573c",
+    "alt_it": "Grappoli d'uva verde tra le foglie della vite",
+    "alt_en": "Bunches of green grapes among vine leaves"
+  },
+  {
+    "slug": "cypress-road",
+    "image_id": "photo-1590309283503-373049dafd67",
+    "photographer": "Photoholgic",
+    "unsplash_page_url": "https://unsplash.com/photos/jxy6anuB5b4",
+    "width_1600": 1600,
+    "height_1600": 1067,
+    "dominant": "#9a8e6e",
+    "alt_it": "Strada bianca fiancheggiata da cipressi tra campi dorati in Toscana",
+    "alt_en": "Gravel road lined with cypresses winding through golden Tuscan fields"
+  },
+  {
+    "slug": "bike",
+    "image_id": "photo-1495641417672-bf711cb4365b",
+    "photographer": "Riccardo Chiarini",
+    "unsplash_page_url": "https://unsplash.com/photos/_C-ZxPF-BtQ",
+    "width_1600": 1600,
+    "height_1600": 1067,
+    "dominant": "#48573a",
+    "focus": "40% 60%",
+    "alt_it": "Mountain bike appoggiata a un olivo nell'erba alta di un uliveto",
+    "alt_en": "Mountain bike leaning against an olive tree in a grassy olive grove"
+  },
+  {
+    "slug": "pool",
+    "image_id": "photo-1575517111037-8f0ed9e4147e",
+    "photographer": "Greg Rivers",
+    "unsplash_page_url": "https://unsplash.com/photos/gRW6kNuibFo",
+    "width_1600": 1600,
+    "height_1600": 1067,
+    "dominant": "#b4d5c6",
+    "alt_it": "Acqua turchese di una piscina all'aperto con bordo in pietra chiara",
+    "alt_en": "Turquoise water of an outdoor pool with a pale stone edge"
+  },
+  {
+    "slug": "florence",
+    "image_id": "photo-1578922290419-520d6f772401",
+    "photographer": "Alexander Akimenko",
+    "unsplash_page_url": "https://unsplash.com/photos/vxzkxfJ8FlE",
+    "width_1600": 1600,
+    "height_1600": 1067,
+    "dominant": "#b29582",
+    "focus": "50% 82%",
+    "alt_it": "Firenze al tramonto: l'Arno e Ponte Vecchio",
+    "alt_en": "Florence at sunset: the Arno and the Ponte Vecchio"
+  }
+]
