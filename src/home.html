@@ -17,8 +17,8 @@
   "description": {{ t.meta.description | tojson }},
   "url": "{{ site.base_url }}{{ lang.path }}",
   {% if site.email %}"email": "{{ site.email }}",{% endif %}
-  "image": "{{ site.base_url }}assets/img/brand/og-image.jpg",
-  "logo": "{{ site.base_url }}assets/img/brand/logo.svg",
+  "image": "{{ site.base_url }}{{ asset('assets/img/brand/og-image.jpg') }}",
+  "logo": "{{ site.base_url }}{{ asset('assets/img/brand/logo.svg') }}",
   "address": { "@type": "PostalAddress", "addressRegion": "FI", "addressCountry": "IT" }
 }
 </script>
@@ -85,7 +85,7 @@
       </div>
 
       <div class="hero__title">
-        <img class="hero__mark" src="{{ root }}assets/img/brand/mark-navy.svg" width="103" height="74" alt="">
+        <img class="hero__mark" src="{{ root }}{{ asset('assets/img/brand/mark-navy.svg') }}" width="103" height="74" alt="">
         <h1 id="hero-title">{{ wordmark('hero__name', stack=True) }}</h1>
         <p class="hero__tagline">{{ t.tagline }}</p>
       </div>
@@ -198,7 +198,7 @@
   <section class="foryou" id="noi-per-voi" data-tone="light" aria-labelledby="foryou-title">
     <div class="wrap">
       <header class="title" data-view>
-        <img class="title__mark" src="{{ root }}assets/img/brand/mark-navy.svg" width="42" height="30" alt="" loading="lazy">
+        <img class="title__mark" src="{{ root }}{{ asset('assets/img/brand/mark-navy.svg') }}" width="42" height="30" alt="" loading="lazy">
         <h2 class="title__text" id="foryou-title">{{ fy.title }}</h2>
       </header>
       <div class="foryou__grid">
@@ -218,7 +218,7 @@
       <ul class="foryou__aims">
         {% for item in fy['items'] %}
         <li data-view>
-          <img src="{{ root }}assets/img/brand/mark-navy.svg" width="31" height="22" alt="" loading="lazy">
+          <img src="{{ root }}{{ asset('assets/img/brand/mark-navy.svg') }}" width="31" height="22" alt="" loading="lazy">
           <p>{{ item }}</p>
         </li>
         {% endfor %}
@@ -240,7 +240,7 @@
           <path d="{{ river() }}"/>
         </svg>
         <div class="xp__intro">
-          <img class="title__mark" src="{{ root }}assets/img/brand/mark-navy.svg" width="42" height="30" alt="" loading="lazy">
+          <img class="title__mark" src="{{ root }}{{ asset('assets/img/brand/mark-navy.svg') }}" width="42" height="30" alt="" loading="lazy">
           <h2 class="xp__title" id="xp-title">{{ xp.title }}</h2>
         </div>
         {% for item in xp['items'] %}
@@ -270,7 +270,7 @@
     </div>
     <div class="wrap night__inner">
       <header class="title title--light" data-view>
-        <img class="title__mark" src="{{ root }}assets/img/brand/mark-ivory.svg" width="42" height="30" alt="" loading="lazy">
+        <img class="title__mark" src="{{ root }}{{ asset('assets/img/brand/mark-ivory.svg') }}" width="42" height="30" alt="" loading="lazy">
         <h2 class="title__text" id="contact-title">{{ c.title }}</h2>
       </header>
       <p class="night__invite" data-view>{{ c.invite }}</p>

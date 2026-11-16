@@ -10,6 +10,7 @@ e scrive per ogni lingua la home e la pagina privacy/:
 index.html, privacy/ (IT) · en/... (EN) · de/... (DE).
 I file generati sono HTML/CSS puri: si pubblicano così come sono (GitHub Pages).
 """
+import hashlib
 import json
 import math
 import pathlib
@@ -152,6 +153,13 @@ def river(width=4200, height=220):
     return _smooth_open(pts)
 
 
+def asset(rel):
+    """Percorso di un file con un codice di versione ricavato dal contenuto (es. style.css?v=1a2b3c4d):
+    quando il file cambia cambia anche l'indirizzo, così il browser non mostra la copia vecchia."""
+    digest = hashlib.md5((ROOT / rel).read_bytes()).hexdigest()[:8]
+    return f"{rel}?v={digest}"
+
+
 def words(text):
     """Divide un testo in parole per le comparse legate allo scroll."""
     return text.split()
@@ -233,7 +241,7 @@ def main():
         lstrip_blocks=True,
         undefined=StrictUndefined,
     )
-    env.globals.update(tree_rings=tree_rings, olive_branch=olive_branch, vineyard=vineyard, river=river)
+    env.globals.update(tree_rings=tree_rings, olive_branch=olive_branch, vineyard=vineyard, river=river, asset=asset)
     env.filters["words"] = words
     owner = site.get("owner", {})
 
