@@ -18,6 +18,11 @@
       "code": "en",
       "label": "EN",
       "path": "en/"
+    },
+    {
+      "code": "de",
+      "label": "DE",
+      "path": "de/"
     }
   ],
   "owner": {

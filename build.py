@@ -7,7 +7,7 @@
 Legge  src/*.html (template) + src/site.json + src/content/<lingua>.json
        + src/content/legal/<lingua>.json + assets/img/photos/credits.json
 e scrive per ogni lingua la home e la pagina privacy/:
-index.html, privacy/ (IT) · en/index.html, en/privacy/ (EN).
+index.html, privacy/ (IT) · en/... (EN) · de/... (DE).
 I file generati sono HTML/CSS puri: si pubblicano così come sono (GitHub Pages).
 """
 import json
@@ -196,9 +196,9 @@ def load_sprite():
     }
 
 
-def format_date(iso):
+def format_date(iso, code="it"):
     y, m, d = iso.split("-")
-    return f"{d}/{m}/{y}"
+    return f"{d}.{m}.{y}" if code == "de" else f"{d}/{m}/{y}"
 
 
 def fill_tokens(value, tokens, todo):
@@ -236,7 +236,6 @@ def main():
     env.globals.update(tree_rings=tree_rings, olive_branch=olive_branch, vineyard=vineyard, river=river)
     env.filters["words"] = words
     owner = site.get("owner", {})
-    updated = format_date(site.get("legal_updated", "2026-01-01"))
 
     ok = True
     for lang in site["languages"]:
@@ -247,6 +246,7 @@ def main():
             print(f"! mancano i contenuti per {code}, salto")
             continue
         t = load(content_path)
+        updated = format_date(site.get("legal_updated", "2026-01-01"), code)
         tokens = {
             "owner_name": owner.get("name", ""),
             "owner_address": owner.get("address", ""),

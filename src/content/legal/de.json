@@ -1,0 +1,72 @@
+{
+  "labels": {
+    "privacy": "Datenschutz & Cookies",
+    "back_home": "Zurück zur Website",
+    "updated": "Letzte Aktualisierung",
+    "vat": "USt-IdNr.",
+    "todo": "wird ergänzt",
+    "on_this_page": "Auf dieser Seite"
+  },
+  "privacy": {
+    "title": "Datenschutzerklärung und Cookies",
+    "meta_description": "Wie Horses of Florence die personenbezogenen Daten von Besucherinnen und Besuchern der Website und von Anfragenden verarbeitet. Die Website verwendet keine Cookies.",
+    "intro": "Diese Datenschutzerklärung nach Art. 13 der Verordnung (EU) 2016/679 (Datenschutz-Grundverordnung, „DSGVO“) erläutert, wie wir personenbezogene Daten verarbeiten, wenn Du die Website von Horses of Florence besuchst, uns um Informationen bittest oder an den Aktivitäten teilnimmst. Kurz gesagt: Die Website verwendet weder Cookies noch Analysetools, und die Daten, die Du uns sendest, dienen nur dazu, Dir zu antworten und Dein Erlebnis zu organisieren.",
+    "sections": [
+      {
+        "id": "titolare",
+        "title": "Verantwortlicher",
+        "html": "<p>Verantwortlich für die Datenverarbeitung ist <strong>%%owner_name%%</strong>, %%owner_address%%, Steuernummer/USt-IdNr. %%owner_tax_id%%, Betreiber des Projekts Horses of Florence und der Website %%site_url%%.</p><p>Für Fragen zu dieser Erklärung oder zur Ausübung Deiner Rechte schreib uns an <a href=\"mailto:%%email%%\">%%email%%</a>.</p>"
+      },
+      {
+        "id": "dati-trattati",
+        "title": "Welche Daten wir verarbeiten",
+        "html": "<p><strong>Besuch der Website.</strong> Die Website ist statisch und wird über GitHub Pages bereitgestellt, einen Dienst von GitHub, Inc. (USA, Microsoft-Konzern). Um die Seiten anzuzeigen, erhält GitHub die IP-Adresse der Besucher und speichert sie aus Sicherheitsgründen. Die Website setzt keine Cookies, speichert nichts in Deinem Browser und lädt keine Inhalte von Drittanbietern: Schriften und Bilder liegen auf der Website selbst.</p><p><strong>Anfragen.</strong> Du kannst uns per E-Mail, WhatsApp oder Telefon über die Angaben im Bereich „Kontakt“ schreiben. Wir verarbeiten die Daten, die Du uns mitteilst: Name, Kontaktdaten und den Inhalt Deiner Nachricht.</p><p><strong>Teilnahme an den Aktivitäten.</strong> Um die Einheiten mit den Pferden zu organisieren, benötigen wir unter Umständen weitere Angaben, etwa zu Deiner Reiterfahrung und, wenn Du Dein eigenes Pferd mitbringst, die Informationen, die für seine Unterbringung im Partnerbetrieb nötig sind.</p>"
+      },
+      {
+        "id": "finalita-basi-giuridiche",
+        "title": "Zwecke und Rechtsgrundlagen",
+        "html": "<ul><li><strong>Sicherheit der Website</strong> (von GitHub gespeicherte IP-Adressen): berechtigtes Interesse am Schutz der Website vor Missbrauch und Angriffen (Art. 6 Abs. 1 lit. f DSGVO).</li><li><strong>Beantwortung von Anfragen und Organisation der Aktivitäten</strong>: Durchführung vorvertraglicher Maßnahmen auf Deine Anfrage und Erfüllung des Vertrags (Art. 6 Abs. 1 lit. b DSGVO).</li><li><strong>Gesetzliche Pflichten</strong>, etwa steuerliche und buchhalterische: rechtliche Verpflichtung (Art. 6 Abs. 1 lit. c DSGVO).</li></ul><p>Wir betreiben weder Profiling noch Marketing und geben keine Daten an Dritte für deren eigene Zwecke weiter.</p>"
+      },
+      {
+        "id": "conferimento",
+        "title": "Musst Du Deine Daten angeben?",
+        "html": "<p>Die Angabe Deiner Daten ist freiwillig. Ohne sie können wir Dir jedoch nicht antworten und Dein Erlebnis nicht organisieren.</p>"
+      },
+      {
+        "id": "conservazione",
+        "title": "Speicherdauer",
+        "html": "<ul><li><strong>Anfragen</strong>: so lange, wie es für die Antwort nötig ist, und, wenn keine Buchung folgt, höchstens 12 Monate.</li><li><strong>Aktivitäten und Buchungen</strong>: für die Dauer der Geschäftsbeziehung; steuerliche und buchhalterische Unterlagen 10 Jahre, wie gesetzlich vorgeschrieben.</li><li><strong>Von GitHub gespeicherte IP-Adressen</strong>: für die in der <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\" target=\"_blank\" rel=\"noopener\">Datenschutzerklärung von GitHub</a> genannten Fristen.</li></ul><p>Nach Ablauf dieser Fristen werden die Daten gelöscht oder anonymisiert.</p>"
+      },
+      {
+        "id": "destinatari",
+        "title": "Empfänger",
+        "html": "<p>Die Daten werden nicht veröffentlicht. Sie können, nur soweit erforderlich, weitergegeben werden an:</p><ul><li>technische Dienstleister: GitHub (Hosting der Website), den E-Mail-Anbieter des Verantwortlichen und WhatsApp (Meta-Konzern), wenn Du uns über diese App schreibst;</li><li>das Partner-Reitzentrum, um die Einheiten mit den Pferden und gegebenenfalls die Unterbringung Deines Pferdes zu organisieren;</li><li>Fachleute, die den Verantwortlichen unterstützen, etwa den Steuerberater;</li><li>Behörden, wenn das Gesetz es vorschreibt.</li></ul>"
+      },
+      {
+        "id": "trasferimenti-extra-ue",
+        "title": "Übermittlung in Länder außerhalb der EU",
+        "html": "<p>Einige Dienstleister, wie GitHub (Microsoft-Konzern) und WhatsApp (Meta-Konzern), gehören zu Unternehmensgruppen mit Sitz in den USA und können Daten auch außerhalb der Europäischen Union verarbeiten. In diesen Fällen stützt sich die Übermittlung auf das EU-US Data Privacy Framework, das die Europäische Kommission mit Beschluss vom 10. Juli 2023 als angemessen anerkannt hat (Art. 45 DSGVO), oder auf die von der Kommission genehmigten Standardvertragsklauseln (Art. 46 DSGVO).</p>"
+      },
+      {
+        "id": "cookie",
+        "title": "Cookies",
+        "html": "<p>Die Website <strong>verwendet keine Cookies</strong>, weder eigene noch von Drittanbietern, und speichert keine Informationen in Deinem Browser (zum Beispiel im <em>localStorage</em>). Sie nutzt keine Analyse- oder Profiling-Tools und bindet keine externen Inhalte wie Karten, Videos oder Social-Media-Widgets ein. Deshalb erscheint auch kein Cookie-Banner.</p><p>Links zu WhatsApp, Instagram oder Deinem E-Mail-Programm öffnen sich nur, wenn Du sie anklickst: Ab dann gelten die Datenschutzerklärungen dieser Dienste.</p>"
+      },
+      {
+        "id": "diritti",
+        "title": "Deine Rechte",
+        "html": "<p>Nach den Artikeln 15 bis 22 DSGVO hast Du das Recht,</p><ul><li><strong>Auskunft</strong> über Deine Daten und eine Kopie davon zu erhalten;</li><li>die <strong>Berichtigung</strong> unrichtiger oder unvollständiger Daten zu verlangen;</li><li>die <strong>Löschung</strong> Deiner Daten zu verlangen, soweit sie nicht gesetzlich aufbewahrt werden müssen;</li><li>die <strong>Einschränkung</strong> der Verarbeitung zu verlangen;</li><li>die Daten, die Du bereitgestellt hast, in einem strukturierten, gängigen Format zu erhalten (<strong>Datenübertragbarkeit</strong>);</li><li>der Verarbeitung auf Grundlage des berechtigten Interesses zu <strong>widersprechen</strong>.</li></ul><p>Um diese Rechte auszuüben, genügt eine Nachricht an <a href=\"mailto:%%email%%\">%%email%%</a>: Du erhältst unverzüglich, in der Regel innerhalb eines Monats, eine Antwort.</p>"
+      },
+      {
+        "id": "reclamo",
+        "title": "Beschwerderecht",
+        "html": "<p>Wenn Du der Ansicht bist, dass die Verarbeitung Deiner Daten gegen die DSGVO verstößt, kannst Du Dich bei der italienischen Datenschutzbehörde (<a href=\"https://www.garanteprivacy.it\" target=\"_blank\" rel=\"noopener\">Garante per la protezione dei dati personali</a>) oder bei der Aufsichtsbehörde des EU-Landes beschweren, in dem Du lebst oder arbeitest.</p>"
+      },
+      {
+        "id": "modifiche",
+        "title": "Änderungen dieser Erklärung",
+        "html": "<p>Diese Erklärung kann aktualisiert werden, zum Beispiel wenn sich die von der Website genutzten Dienste oder die Rechtslage ändern. Es gilt stets die auf dieser Seite veröffentlichte Fassung. Letzte Aktualisierung: %%updated%%.</p>"
+      }
+    ]
+  }
+}
