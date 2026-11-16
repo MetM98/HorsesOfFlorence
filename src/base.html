@@ -41,6 +41,7 @@
 <link rel="preload" href="{{ root }}assets/fonts/jost.woff2" as="font" type="font/woff2" crossorigin>
 {% block preload %}{% endblock %}
 <link rel="stylesheet" href="{{ root }}assets/css/style.css">
+{% block styles %}{% endblock %}
 <script>document.documentElement.classList.replace('no-js','js')</script>
 {% block head_extra %}{% endblock %}
 </head>
@@ -48,7 +49,7 @@
 <!--ICON_SPRITE-->
 <a class="skip" href="#main">{{ t.ui.skip }}</a>
 
-<header class="site-header{% if page != 'home' %} is-solid{% endif %}" id="top">
+<header class="site-header{% if page not in ('home', 'natura') %} is-solid{% endif %}" id="top">
   <div class="site-header__inner">
     <a class="brand" href="{{ home if home else '#top' }}" aria-label="{{ t.brand.home_label }}">
       <img class="brand__mark" src="{{ root }}assets/img/brand/mark-navy.svg" width="40" height="56" alt="">
@@ -118,5 +119,6 @@
 </footer>
 
 <script src="{{ root }}assets/js/main.js" defer></script>
+{% block scripts %}{% endblock %}
 </body>
 </html>

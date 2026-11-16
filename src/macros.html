@@ -12,3 +12,11 @@
 {% macro wordmark(cls='') -%}
 <span class="wordmark {{ cls }}"><span>H</span>orses of <span>F</span>lorence</span>
 {%- endmacro %}
+{#- Disegni per la proposta «natura»: cipresso e olivo stilizzati (coordinate SVG) -#}
+{% macro cypress(x, y, h, cls='') -%}
+{% set w = h * 0.16 %}
+<path class="{{ cls }}" d="M{{ x }} {{ y }}C{{ '%.1f' % (x - w) }} {{ '%.1f' % (y - h * 0.32) }} {{ '%.1f' % (x - w * 0.55) }} {{ '%.1f' % (y - h * 0.82) }} {{ x }} {{ '%.1f' % (y - h) }}C{{ '%.1f' % (x + w * 0.55) }} {{ '%.1f' % (y - h * 0.82) }} {{ '%.1f' % (x + w) }} {{ '%.1f' % (y - h * 0.32) }} {{ x }} {{ y }}Z"/>
+{%- endmacro %}
+{% macro olive(x, y, r, cls='') -%}
+<path class="{{ cls }}" d="M{{ '%.1f' % (x - r) }} {{ y }}a{{ r }} {{ '%.1f' % (r * 0.8) }} 0 1 1 {{ r * 2 }} 0zM{{ x }} {{ y }}v{{ '%.1f' % (r * 0.7) }}" />
+{%- endmacro %}

@@ -6,8 +6,8 @@
 
 Legge  src/*.html (template) + src/site.json + src/content/<lingua>.json
        + src/content/legal/<lingua>.json + assets/img/photos/credits.json
-e scrive per ogni lingua la home e la pagina privacy/:
-index.html, privacy/ (IT) · en/index.html, en/privacy/ (EN).
+e scrive per ogni lingua la home, la pagina privacy/ e la proposta natura/:
+index.html, privacy/, natura/ (IT) · en/index.html, en/privacy/, en/natura/ (EN).
 I file generati sono HTML/CSS puri: si pubblicano così come sono (GitHub Pages).
 """
 import json
@@ -26,6 +26,8 @@ IMG = ROOT / "assets" / "img"
 PAGES = [
     ("home", "", "home.html"),
     ("privacy", "privacy/", "legal.html"),
+    # proposta alternativa della home: «una giornata nel Chianti», dall'alba alla notte
+    ("natura", "natura/", "natura.html"),
 ]
 
 
@@ -124,7 +126,7 @@ def main():
         for page, page_path, template_name in PAGES:
             out_rel = lang["path"] + page_path
             root = "../" * out_rel.count("/")
-            home = "" if page == "home" else root + lang["path"]
+            home = "" if page in ("home", "natura") else root + lang["path"]
             html = env.get_template(template_name).render(
                 t=t, lg=lg, site=site, lang=lang, root=root, home=home,
                 page=page, page_path=page_path, photos=photos, updated=updated,

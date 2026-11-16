@@ -309,5 +309,84 @@
     "photos_credit": "Photos",
     "photos_more": "and other photographers on Unsplash",
     "bnb": "The B&B: A spasso con Daisy · Chianti Home"
+  },
+  "natura": {
+    "meta_title": "Horses of Florence · A slow journey towards harmony",
+    "phases": [
+      "Dawn",
+      "Morning",
+      "Midday",
+      "Afternoon",
+      "Sunset",
+      "Night"
+    ],
+    "phases_label": "The rhythm of the day",
+    "hero": {
+      "line": "Let the horse’s pace set the rhythm. Here time slows down, and finds you again.",
+      "cta": "Begin the journey",
+      "scroll": "Scroll slowly",
+      "illustration_alt": "Illustration: the Chianti hills at dawn in a blue haze, with rows of cypresses and the rising sun"
+    },
+    "breath": {
+      "kicker": "A moment for you",
+      "title": "First of all, breathe.",
+      "text": "Here time moves at the pace of a horse: slow, present, honest. Follow the circle for a few breaths, then carry on.",
+      "inhale": "Breathe in",
+      "exhale": "Breathe out"
+    },
+    "words": [
+      "Slow down",
+      "Feel",
+      "Find yourself"
+    ],
+    "journey": {
+      "kicker": "The journey",
+      "title": "Towards harmony, one step at a time",
+      "intro": "Every experience is a path, on the ground and in the saddle, with two aims: your bond with your horse, and the way back to yourself.",
+      "stops": [
+        {
+          "title": "Arrive",
+          "text": "Leave the rush at the gate. The first step is to stop, look around and breathe the country air."
+        },
+        {
+          "title": "Listen",
+          "text": "On the ground, beside the horse: watch, feel its breath, notice what it perceives. And what you perceive."
+        },
+        {
+          "title": "Meet",
+          "text": "With our horses or with your own companion in life or at work, groundwork builds trust, listening and dialogue.",
+          "photo": "herd"
+        },
+        {
+          "title": "In the saddle",
+          "text": "At walk, trot and canter, the balance of the body becomes inner balance. Never more than three riders, so the instructor can care for every detail."
+        },
+        {
+          "title": "Find yourself",
+          "text": "Move past emotional blocks, regenerate, recharge. Go home lighter, with a new view of yourself.",
+          "photo": "grazing"
+        }
+      ]
+    },
+    "map": {
+      "kicker": "The land",
+      "title": "The Chianti, at a slow pace",
+      "intro": "Around the B&B the countryside opens up into gravel roads, stone villages and age-old flavours. Choose your experiences.",
+      "note": "Illustrative map, not to scale",
+      "alt": "Illustrated map of the area between Florence and Siena: the Pesa stream, the cycle path from the B&B to Cerbaia, the villages and castles of the Chianti",
+      "places": {
+        "firenze": "Florence",
+        "siena": "Siena",
+        "cerbaia": "Cerbaia",
+        "sancasciano": "San Casciano",
+        "greve": "Greve in Chianti",
+        "castellina": "Castellina in Chianti",
+        "monteriggioni": "Monteriggioni",
+        "tavarnelle": "Barberino Tavarnelle",
+        "bnb": "The B&B",
+        "pesa": "Pesa stream",
+        "arno": "Arno"
+      }
+    }
   }
 }
