@@ -219,7 +219,7 @@ Tutti i percorsi sono relativi, quindi il sito funziona anche con un dominio pro
 - [x] Ricavare logo vettoriale e palette (blu, avorio, argento)
 - [x] Testi definitivi in italiano e traduzione inglese
 - [x] Contatti diretti (WhatsApp, email, telefono, Instagram)
-- [x] SEO bilingue (`hreflang`, meta tag, dati strutturati, immagine per i social)
+- [x] SEO multilingue (`hreflang`, meta tag, dati strutturati, immagine per i social)
 - [x] Accessibilità e prestazioni di base (mobile first, foto WebP, font locali)
 - [x] Informativa privacy e cookie
 - [ ] Rileggere le traduzioni inglese e tedesca
