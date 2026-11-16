@@ -27,9 +27,9 @@ const og = `<!doctype html><html><head><meta charset="utf-8"><style>
 @font-face { font-family: Cormorant; src: url("${url('assets/fonts/cormorant-garamond-italic.woff2')}"); font-style: italic; }
 @font-face { font-family: Jost; src: url("${url('assets/fonts/jost.woff2')}"); }
 html, body { margin: 0; width: 1200px; height: 630px; overflow: hidden; }
-body { position: relative; background: #f6f5f1; font-family: Jost, sans-serif; color: #14223d; }
+body { position: relative; background: #f7f3eb; font-family: Jost, sans-serif; color: #14223d; }
 .photo { position: absolute; inset: 0 430px 0 0; background: url("${url('assets/img/photos/mane-1600.webp')}") 40% 38% / cover; }
-.veil { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(246,245,241,0) 38%, rgba(246,245,241,.85) 58%, #f6f5f1 66%); }
+.veil { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(247,243,235,0) 38%, rgba(247,243,235,.85) 58%, #f7f3eb 66%); }
 .panel { position: absolute; top: 0; bottom: 0; right: 0; width: 470px; display: flex; flex-direction: column; justify-content: center; padding: 0 64px 0 30px; box-sizing: border-box; }
 .logo { display: flex; align-items: center; gap: 22px; margin-bottom: 34px; }
 .logo img { height: 150px; }
@@ -43,8 +43,8 @@ body { position: relative; background: #f6f5f1; font-family: Jost, sans-serif; c
 <div class="panel">
   <div class="logo"><img src="${url('assets/img/brand/mark-navy.svg')}" alt=""><div class="name"><span>H</span>orses<br>of <span>F</span>lorence</div></div>
   <div class="rule"></div>
-  <div class="tag">A cavallo in viaggio<br>verso l’armonia</div>
-  <div class="place">Chianti fiorentino · Firenze</div>
+  <div class="tag">A cavallo in viaggio<br>verso l’armonia.</div>
+  <div class="place">Nel cuore del Chianti fiorentino</div>
 </div>
 </body></html>`;
 
