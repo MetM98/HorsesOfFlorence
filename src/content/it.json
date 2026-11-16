@@ -309,5 +309,84 @@
     "photos_credit": "Foto",
     "photos_more": "e altri autori su Unsplash",
     "bnb": "Il B&B: A spasso con Daisy · Chianti Home"
+  },
+  "natura": {
+    "meta_title": "Horses of Florence · Un viaggio lento verso l’armonia",
+    "phases": [
+      "Alba",
+      "Mattino",
+      "Mezzogiorno",
+      "Pomeriggio",
+      "Tramonto",
+      "Notte"
+    ],
+    "phases_label": "Il ritmo della giornata",
+    "hero": {
+      "line": "Lascia che sia il passo del cavallo a dettare il ritmo. Qui il tempo rallenta, e Ti ritrova.",
+      "cta": "Inizia il viaggio",
+      "scroll": "Scorri piano",
+      "illustration_alt": "Illustrazione: colline del Chianti all’alba, nella foschia azzurra, con file di cipressi e il sole che sorge"
+    },
+    "breath": {
+      "kicker": "Un momento per Te",
+      "title": "Prima di tutto, respira.",
+      "text": "Qui il tempo ha il passo del cavallo: lento, presente, sincero. Segui il cerchio per qualche respiro, poi prosegui.",
+      "inhale": "Inspira",
+      "exhale": "Espira"
+    },
+    "words": [
+      "Rallentare",
+      "Sentire",
+      "Ritrovarsi"
+    ],
+    "journey": {
+      "kicker": "Il viaggio",
+      "title": "Verso l’armonia, un passo alla volta",
+      "intro": "Ogni esperienza è un cammino, da terra e in sella, con due finalità: il rapporto con il Tuo cavallo e il ritorno a Te.",
+      "stops": [
+        {
+          "title": "Arrivare",
+          "text": "Lasci la fretta al cancello. Il primo passo è fermarsi, guardarsi intorno, respirare l’aria della campagna."
+        },
+        {
+          "title": "Ascoltare",
+          "text": "Da terra, accanto al cavallo: osservarlo, sentirne il respiro, accorgersi di ciò che percepisce. E di ciò che percepisci Tu."
+        },
+        {
+          "title": "Incontrarsi",
+          "text": "Con i nostri cavalli o con il Tuo compagno di vita o di lavoro, il lavoro da terra costruisce fiducia, ascolto e dialogo.",
+          "photo": "herd"
+        },
+        {
+          "title": "In sella",
+          "text": "Al passo, al trotto, al galoppo: l’equilibrio del corpo diventa equilibrio interiore. Mai più di tre cavalieri, perché l’istruttore possa curare ogni dettaglio."
+        },
+        {
+          "title": "Ritrovarsi",
+          "text": "Superare i blocchi emotivi, rigenerarsi, recuperare energie. Tornare a casa più leggeri, con uno sguardo nuovo su di Te.",
+          "photo": "grazing"
+        }
+      ]
+    },
+    "map": {
+      "kicker": "Il territorio",
+      "title": "Il Chianti, a passo lento",
+      "intro": "Intorno al B&B la campagna si apre in strade bianche, borghi di pietra e sapori antichi. Scegli le Tue esperienze.",
+      "note": "Mappa illustrativa, non in scala",
+      "alt": "Mappa illustrata del territorio tra Firenze e Siena: il torrente Pesa, la pista ciclabile dal B&B a Cerbaia, i borghi e i castelli del Chianti",
+      "places": {
+        "firenze": "Firenze",
+        "siena": "Siena",
+        "cerbaia": "Cerbaia",
+        "sancasciano": "San Casciano",
+        "greve": "Greve in Chianti",
+        "castellina": "Castellina in Chianti",
+        "monteriggioni": "Monteriggioni",
+        "tavarnelle": "Barberino Tavarnelle",
+        "bnb": "Il B&B",
+        "pesa": "Torrente Pesa",
+        "arno": "Arno"
+      }
+    }
   }
 }

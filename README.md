@@ -114,13 +114,15 @@ Lo stesso approccio del sito del B&B *A spasso con Daisy*: sito vetrina statico,
 ```text
 .
 ├── index.html, privacy/, en/          pagine generate (non modificarle a mano)
+├── natura/, en/natura/                proposta alternativa della home, «una giornata nel Chianti»
 ├── src/
 │   ├── content/it.json, en.json       testi delle pagine
 │   ├── content/legal/it.json, en.json informativa privacy e cookie
 │   ├── site.json                      contatti, link, titolare, opzioni
-│   └── base.html, home.html, legal.html, macros.html   template
+│   └── base.html, home.html, natura.html, legal.html, macros.html   template
 ├── assets/
 │   ├── css/style.css                  stile (blu, avorio, argento)
+│   ├── css/natura.css, js/natura.js   stile e movimenti della proposta «natura»
 │   ├── js/main.js                     header, menu mobile, animazioni, modulo contatti
 │   ├── fonts/                         font ospitati in locale
 │   └── img/
@@ -134,6 +136,10 @@ Lo stesso approccio del sito del B&B *A spasso con Daisy*: sito vetrina statico,
 ├── build.py                           generatore
 └── README.md
 ```
+
+### Proposta «natura»
+
+In `natura/` (e `en/natura/`) c'è una seconda versione della home, da confrontare con quella attuale. Racconta il progetto come una giornata nel Chianti: il cielo passa dall'alba alla notte mentre si scorre. Contiene un paesaggio illustrato di colline nella foschia, un cerchio che invita a respirare, un sentiero che si disegna tappa dopo tappa, la mappa illustrata del territorio, il soggiorno al tramonto e i contatti sotto le stelle. I testi nuovi sono in `src/content/<lingua>.json`, chiave `natura`.
 
 ### Logo
 

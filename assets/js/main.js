@@ -5,7 +5,7 @@
   var doc = document;
   var root = doc.documentElement;
   var header = doc.querySelector('.site-header');
-  var hero = doc.querySelector('.hero');
+  var hero = doc.querySelector('.hero, [data-hero]');
   var toggle = doc.querySelector('.menu-toggle');
   var nav = doc.getElementById('nav');
   var hasIO = 'IntersectionObserver' in window;
