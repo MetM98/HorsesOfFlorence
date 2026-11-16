@@ -153,11 +153,12 @@ La home racconta i testi come una sequenza di scene. Ogni movimento segue lo sco
 
 ### Logo
 
-Il PDF ricevuto contiene un'immagine JPEG piccola (491×624 px). `tools/logo.py` la ricalca in curve vettoriali:
+Il PDF ricevuto contiene un'immagine JPEG piccola (491×624 px), girata di 90° per stare in verticale nella pagina. `tools/logo.py` la riporta nel verso giusto (90° in senso orario: cavallo a testa china, giglio dritto, scritta orizzontale sotto) e la ricalca in curve vettoriali:
 
-- `assets/img/brand/logo.svg`: logo completo con scritta verticale, colori originali (nero e rosso);
+- `assets/img/brand/logo.svg`: logo completo con la scritta sotto, colori originali (nero e rosso);
 - `mark.svg`: solo cavallo e giglio, colori originali;
-- `mark-navy.svg` e `mark-ivory.svg`: cavallo blu notte o avorio, giglio rosso, usati nel sito su fondi chiari e scuri.
+- `mark-navy.svg` e `mark-ivory.svg`: cavallo blu notte o avorio, giglio rosso, usati nel sito su fondi chiari e scuri;
+- `favicon.svg`: marchio avorio su quadrato blu, da cui `tools/render_brand.js` ricava le icone PNG e l'immagine per i social.
 
 Se esiste un file vettoriale originale del logo (AI, EPS, SVG o PDF vettoriale), conviene usare quello.
 

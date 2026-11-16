@@ -31,8 +31,8 @@ body { position: relative; background: #f7f3eb; font-family: Jost, sans-serif; c
 .photo { position: absolute; inset: 0 430px 0 0; background: url("${url('assets/img/photos/mane-1600.webp')}") 40% 38% / cover; }
 .veil { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(247,243,235,0) 38%, rgba(247,243,235,.85) 58%, #f7f3eb 66%); }
 .panel { position: absolute; top: 0; bottom: 0; right: 0; width: 470px; display: flex; flex-direction: column; justify-content: center; padding: 0 64px 0 30px; box-sizing: border-box; }
-.logo { display: flex; align-items: center; gap: 22px; margin-bottom: 34px; }
-.logo img { height: 150px; }
+.logo { margin-bottom: 30px; }
+.logo img { width: 300px; height: auto; display: block; }
 .name { font-family: Montserrat; font-weight: 400; text-transform: uppercase; letter-spacing: .06em; font-size: 25px; line-height: 1.35; }
 .name span { font-size: 1.3em; }
 .tag { font-family: Cormorant; font-style: italic; font-weight: 500; font-size: 38px; line-height: 1.15; }
@@ -41,7 +41,7 @@ body { position: relative; background: #f7f3eb; font-family: Jost, sans-serif; c
 </style></head><body>
 <div class="photo"></div><div class="veil"></div>
 <div class="panel">
-  <div class="logo"><img src="${url('assets/img/brand/mark-navy.svg')}" alt=""><div class="name"><span>H</span>orses<br>of <span>F</span>lorence</div></div>
+  <div class="logo"><img src="${url('assets/img/brand/logo.svg')}" alt=""></div>
   <div class="rule"></div>
   <div class="tag">A cavallo in viaggio<br>verso l’armonia.</div>
   <div class="place">Nel cuore del Chianti fiorentino</div>
