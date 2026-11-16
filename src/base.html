@@ -29,21 +29,21 @@
 {% for l in site.languages if l.code != lang.code %}
 <meta property="og:locale:alternate" content="{{ {'it': 'it_IT', 'en': 'en_GB', 'de': 'de_DE'}[l.code] }}">
 {% endfor %}
-<meta property="og:image" content="{{ site.base_url }}assets/img/brand/og-image.jpg">
+<meta property="og:image" content="{{ site.base_url }}{{ asset('assets/img/brand/og-image.jpg') }}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="{{ t.meta.og_image_alt }}">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="{{ root }}assets/img/brand/favicon.svg" type="image/svg+xml">
-<link rel="icon" type="image/png" sizes="32x32" href="{{ root }}assets/img/brand/favicon-32.png">
-<link rel="apple-touch-icon" href="{{ root }}assets/img/brand/apple-touch-icon.png">
-<link rel="manifest" href="{{ root }}site.webmanifest">
+<link rel="icon" href="{{ root }}{{ asset('assets/img/brand/favicon.svg') }}" type="image/svg+xml">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ root }}{{ asset('assets/img/brand/favicon-32.png') }}">
+<link rel="apple-touch-icon" href="{{ root }}{{ asset('assets/img/brand/apple-touch-icon.png') }}">
+<link rel="manifest" href="{{ root }}{{ asset('site.webmanifest') }}">
 <link rel="preload" href="{{ root }}assets/fonts/montserrat.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="{{ root }}assets/fonts/cormorant-garamond.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="{{ root }}assets/fonts/cormorant-garamond-italic.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="{{ root }}assets/fonts/jost.woff2" as="font" type="font/woff2" crossorigin>
 {% block preload %}{% endblock %}
-<link rel="stylesheet" href="{{ root }}assets/css/style.css">
+<link rel="stylesheet" href="{{ root }}{{ asset('assets/css/style.css') }}">
 <script>document.documentElement.classList.replace('no-js','js');if(matchMedia('(prefers-reduced-motion: reduce)').matches)document.documentElement.classList.add('still')</script>
 {% block head_extra %}{% endblock %}
 </head>
@@ -57,8 +57,8 @@
     <span class="sr-only">{{ t.ui.menu_open }}</span>
   </button>
   <a class="brand" href="{{ home if home else '#home' }}" aria-label="{{ t.ui.home_label }}">
-    <img class="brand__mark brand__mark--navy" src="{{ root }}assets/img/brand/mark-navy.svg" width="47" height="34" alt="">
-    <img class="brand__mark brand__mark--ivory" src="{{ root }}assets/img/brand/mark-ivory.svg" width="47" height="34" alt="">
+    <img class="brand__mark brand__mark--navy" src="{{ root }}{{ asset('assets/img/brand/mark-navy.svg') }}" width="47" height="34" alt="">
+    <img class="brand__mark brand__mark--ivory" src="{{ root }}{{ asset('assets/img/brand/mark-ivory.svg') }}" width="47" height="34" alt="">
     {{ wordmark('brand__name') }}
   </a>
   <ul class="langs" aria-label="{{ t.ui.lang_label }}">
@@ -90,7 +90,7 @@
 <footer class="site-footer" data-tone="dark">
   <div class="site-footer__inner">
     <a class="site-footer__brand" href="{{ home if home else '#home' }}" aria-label="{{ t.ui.home_label }}">
-      <img class="site-footer__mark" src="{{ root }}assets/img/brand/mark-ivory.svg" width="112" height="80" alt="" loading="lazy" decoding="async">
+      <img class="site-footer__mark" src="{{ root }}{{ asset('assets/img/brand/mark-ivory.svg') }}" width="112" height="80" alt="" loading="lazy" decoding="async">
       {{ wordmark('site-footer__name') }}
     </a>
     <p class="site-footer__tagline">{{ t.tagline }}</p>
@@ -118,6 +118,6 @@
   </div>
 </footer>
 
-<script src="{{ root }}assets/js/main.js" defer></script>
+<script src="{{ root }}{{ asset('assets/js/main.js') }}" defer></script>
 </body>
 </html>
