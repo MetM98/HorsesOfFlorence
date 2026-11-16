@@ -2,391 +2,96 @@
   "locale": "it_IT",
   "meta": {
     "title": "Horses of Florence · A cavallo in viaggio verso l’armonia",
-    "description": "Nel Chianti fiorentino, alle porte di Firenze: lavoro con i cavalli da terra e in sella, da uno a tre cavalieri alla volta. Per ritrovare il rapporto con il Tuo cavallo e con Te stesso.",
-    "og_image_alt": "Horses of Florence: il logo con la testa di cavallo e il giglio di Firenze, accanto a un cavallo dalla criniera al vento"
+    "description": "Nel cuore del Chianti fiorentino, dove l’aria profuma di storia e la luce accarezza le colline tipiche di questa terra, nasce Horses of Florence, per cui il cavallo non è solo compagno, ma guida.",
+    "og_image_alt": "Horses of Florence. A cavallo in viaggio verso l’armonia."
   },
   "ui": {
     "skip": "Vai al contenuto",
     "menu_open": "Apri il menu",
     "menu_close": "Chiudi il menu",
     "lang_label": "Lingua",
-    "back_top": "Torna su",
     "new_tab": "si apre in una nuova scheda",
     "todo": "da completare",
-    "preview_note": "Anteprima del sito: i contenuti sono in revisione e la pagina non è ancora indicizzata dai motori di ricerca."
+    "home_label": "Horses of Florence, torna all’inizio"
   },
-  "brand": {
-    "home_label": "Horses of Florence, torna all’inizio",
-    "logo_alt": "Horses of Florence: testa di cavallo stilizzata con il giglio di Firenze"
-  },
+  "brand": "Horses of Florence",
+  "tagline": "A cavallo in viaggio verso l’armonia.",
   "nav": [
-    {
-      "href": "#progetto",
-      "label": "Il progetto"
-    },
-    {
-      "href": "#noi-per-voi",
-      "label": "Noi per voi"
-    },
-    {
-      "href": "#esperienze",
-      "label": "Esperienze"
-    },
-    {
-      "href": "#abbigliamento",
-      "label": "Abbigliamento"
-    },
-    {
-      "href": "#contatti",
-      "label": "Contatti"
-    }
+    { "href": "#home", "label": "Home" },
+    { "href": "#noi-per-voi", "label": "Noi per voi" },
+    { "href": "#esperienze", "label": "Scegli le tue esperienze" },
+    { "href": "#contatti", "label": "Contatti" }
   ],
-  "nav_cta": "Scrivici",
-  "hero": {
-    "kicker": "Chianti fiorentino · alle porte di Firenze",
-    "title": "A cavallo in viaggio verso l’armonia",
-    "text": "Qui il cavallo non è solo compagno, ma guida: un ponte tra la terra e la Tua interiorità.",
-    "cta_primary": "Scopri il progetto",
-    "cta_secondary": "Richiedi informazioni",
-    "facts": [
-      {
-        "icon": "guests",
-        "text": "Da 1 a 3 cavalieri"
-      },
-      {
-        "icon": "horse",
-        "text": "Da terra e in sella"
-      },
-      {
-        "icon": "award",
-        "text": "Struttura affiliata FISE"
-      }
-    ],
-    "scroll": "Scorri"
-  },
-  "philosophy": {
-    "kicker": "Il progetto",
-    "title": "Rallentare, sentire, ritrovare il proprio centro",
-    "lead": "Horses of Florence nasce nel cuore del Chianti fiorentino da un’idea semplice: il tempo trascorso con un cavallo può diventare un ritorno a sé.",
-    "paragraphs": [
-      "Il cavallo vive nel presente e risponde a ciò che siamo davvero, non a ciò che vorremmo mostrare. Accanto a lui si impara di nuovo ad ascoltare: il respiro, il corpo, le emozioni.",
-      "Uniamo la bellezza della campagna fiorentina, tra vigneti, uliveti e borghi di pietra, alla profondità della relazione con l’animale. Un invito a fermarTi, a sentire e a ritrovare il Tuo equilibrio."
-    ],
-    "quote": "Il cavallo non è solo compagno, ma guida.",
-    "pillars": [
-      {
-        "icon": "leaf",
-        "title": "Rallentare",
-        "text": "Lasciare fuori la fretta e riprendere il ritmo del passo, del respiro, della natura."
-      },
-      {
-        "icon": "horse-heart",
-        "title": "Sentire",
-        "text": "Accorgersi di ciò che il cavallo percepisce e di ciò che, attraverso di lui, percepisci Tu."
-      },
-      {
-        "icon": "meditation",
-        "title": "Ritrovare il centro",
-        "text": "Tornare a casa più leggeri, con energie nuove e uno sguardo più chiaro su di Te."
-      }
-    ]
-  },
-  "band": {
-    "quote": "Ogni incontro con il cavallo è un viaggio: verso di lui, e verso di Te.",
-    "caption": "Horses of Florence"
-  },
-  "for_you": {
-    "kicker": "Noi per voi",
-    "title": "Un’accoglienza su misura",
-    "intro": "Accogliamo da uno a tre cavalieri al massimo, così che l’istruttore possa curare anche i minimi dettagli. Tu scegli il ritmo: noi ci prendiamo cura del resto.",
-    "riders_label": "cavalieri alla volta, al massimo",
-    "features": [
-      {
-        "icon": "guests",
-        "title": "Individuale o in piccoli gruppi",
-        "text": "Da uno a tre cavalieri alla volta: un’attenzione piena, a misura di ciascuno."
-      },
-      {
-        "icon": "horse",
-        "title": "I nostri cavalli o il Tuo",
-        "text": "Lavori con i cavalli della struttura oppure con il Tuo compagno, che può essere ospitato presso la struttura di riferimento."
-      },
-      {
-        "icon": "award",
-        "title": "Una struttura FISE",
-        "text": "Il centro ippico di riferimento è affiliato alla Federazione Italiana Sport Equestri, con personale qualificato."
-      },
-      {
-        "icon": "house",
-        "title": "Il soggiorno nel Chianti",
-        "text": "Puoi fermarTi al B&B e vivere la vacanza, o il tempo libero, come un viaggio verso Te stesso."
-      }
-    ]
-  },
-  "paths": {
-    "kicker": "Da terra e in sella",
-    "title": "Due cammini, un’unica armonia",
-    "intro": "Il lavoro con i cavalli si svolge da terra e in sella, con due finalità principali.",
-    "items": [
-      {
-        "photo": "herd",
-        "label": "Per Te e il Tuo cavallo",
-        "title": "Migliorare il rapporto con il Tuo cavallo",
-        "text": "Per conoscerlo più a fondo, comunicare con maggiore chiarezza e rafforzare il legame con il Tuo compagno di vita o di lavoro.",
-        "points": [
-          "Lavoro da terra e in sella",
-          "Ascolto e comunicazione",
-          "Fiducia reciproca"
-        ]
-      },
-      {
-        "photo": "grazing",
-        "label": "Per Te",
-        "title": "Ritrovare Te stesso",
-        "text": "Per superare blocchi emotivi, ritrovarTi, rigenerarTi e recuperare energie, al passo lento della campagna toscana.",
-        "points": [
-          "Superare i blocchi emotivi",
-          "Ritrovare se stessi",
-          "Rigenerarsi e recuperare energie"
-        ]
-      }
-    ]
-  },
-  "experiences": {
-    "kicker": "Scegli le Tue esperienze",
-    "title": "Oltre il tempo con i cavalli",
-    "intro": "Il Chianti fiorentino è un invito a scoprire. Intorno al B&B Ti aspettano strade bianche, sentieri e sapori che rendono unico ogni soggiorno.",
-    "items": [
-      {
-        "photo": "cypress-road",
-        "icon": "castle",
-        "title": "Borghi fortificati e castelli",
-        "text": "Piccoli paesi di pietra, mura antiche e castelli sulle colline: la Toscana più autentica, a due passi."
-      },
-      {
-        "photo": "florence",
-        "icon": "church",
-        "title": "Firenze, Siena e dintorni",
-        "text": "Le città d’arte e altre mete turistiche, raggiungibili anche in mezz’ora.",
-        "badge": "da 30 minuti"
-      },
-      {
-        "photo": "bike",
-        "icon": "bike",
-        "title": "In bici o a piedi lungo la Pesa",
-        "text": "Dal B&B fino a Cerbaia, in Val di Pesa, lungo la pista ciclabile che segue il torrente. Biciclette a noleggio."
-      },
-      {
-        "photo": "pool",
-        "icon": "pool",
-        "title": "Piscina, padel e pesca sportiva",
-        "text": "Per un pomeriggio di sport o di puro relax, nei pressi del B&B."
-      },
-      {
-        "photo": "vineyard",
-        "icon": "grapes",
-        "title": "Olio e vino del territorio",
-        "text": "Degustazioni di olio e vini locali presso le realtà produttive della zona."
-      }
-    ]
-  },
-  "stay": {
-    "kicker": "Il soggiorno",
-    "title": "Una casa tra le colline",
-    "paragraphs": [
-      "Per vivere l’esperienza senza fretta puoi soggiornare al B&B A spasso con Daisy · Chianti Home: due appartamenti a Barberino Tavarnelle, nel cuore del Chianti, a pochi passi dal torrente Pesa.",
-      "Una vacanza, o anche solo un fine settimana, da vivere come un viaggio verso Te stesso."
-    ],
-    "cta": "Scopri il B&B",
-    "note": "Il sito del B&B si apre in una nuova scheda."
-  },
-  "know": {
-    "kicker": "Prima di partire",
-    "title": "Cosa serve",
-    "items": [
-      {
-        "icon": "horseshoe",
-        "title": "Le tre andature",
-        "text": "È richiesta la conoscenza delle tre andature: passo, trotto e galoppo."
-      },
-      {
-        "icon": "boot",
-        "title": "Abbigliamento idoneo",
-        "text": "Indossa un abbigliamento adatto all’equitazione: comodo, sicuro, pensato per stare in sella."
-      }
-    ]
-  },
-  "apparel": {
-    "kicker": "Abbigliamento",
-    "title": "Vesti la nostra filosofia",
-    "text": "Una linea di abbigliamento nei colori del progetto, per portare con Te un po’ di questa armonia anche lontano dal maneggio.",
-    "colors": [
-      {
-        "name": "Blu",
-        "class": "blue"
-      },
-      {
-        "name": "Bianco",
-        "class": "white"
-      },
-      {
-        "name": "Argento",
-        "class": "silver"
-      }
-    ],
-    "cta_shop": "Scopri la collezione",
-    "cta_info": "Chiedi informazioni",
-    "soon": "Collezione in arrivo"
-  },
-  "contact": {
-    "kicker": "Contatti",
-    "title": "Non aspettare domani per prenderti cura di Te, di Voi.",
-    "intro": "Raccontaci chi sei, se verrai con il Tuo cavallo e che cosa cerchi: Ti risponderemo per costruire insieme la Tua esperienza.",
-    "direct_title": "Scrivici direttamente",
-    "location": "Chianti fiorentino, alle porte di Firenze",
-    "email_todo": "Indirizzo email",
-    "form": {
-      "title": "Richiesta di informazioni",
-      "name": "Nome",
-      "name_ph": "Come ti chiami?",
-      "interest": "Mi interessa",
-      "interests": [
-        {
-          "value": "relationship",
-          "label": "Migliorare il rapporto con il mio cavallo"
-        },
-        {
-          "value": "self",
-          "label": "Ritrovare me stesso e rigenerarmi"
-        },
-        {
-          "value": "stay",
-          "label": "Soggiorno ed esperienze sul territorio"
-        },
-        {
-          "value": "apparel",
-          "label": "La linea di abbigliamento"
-        },
-        {
-          "value": "other",
-          "label": "Altro"
-        }
-      ],
-      "riders": "Cavalieri",
-      "riders_options": [
-        "1",
-        "2",
-        "3"
-      ],
-      "own_horse": "Verrò con il mio cavallo",
-      "period": "Periodo",
-      "period_ph": "Es. una settimana a maggio",
-      "message": "Messaggio",
-      "message_ph": "Raccontaci qualcosa di Te e della Tua esperienza con i cavalli",
-      "requirements": "Confermo di conoscere le tre andature (passo, trotto e galoppo).",
-      "send_whatsapp": "Invia con WhatsApp",
-      "send_email": "Invia per email",
-      "privacy_note": "Il modulo prepara il messaggio nella Tua app: nulla viene inviato finché non lo confermi.",
-      "privacy_link": "Informativa privacy"
-    },
-    "message": {
-      "greeting": "Buongiorno, vorrei ricevere informazioni su Horses of Florence.",
-      "subject": "Richiesta di informazioni",
-      "name": "Nome",
-      "interest": "Mi interessa",
-      "riders": "Cavalieri",
-      "own_horse": "Con il mio cavallo",
-      "period": "Periodo",
-      "gaits": "Conosco le tre andature",
-      "yes": "sì",
-      "no": "no"
-    }
-  },
-  "footer": {
-    "tagline": "A cavallo in viaggio verso l’armonia.",
-    "note": "È richiesta la conoscenza delle tre andature · Indossare abbigliamento idoneo",
-    "rights": "Tutti i diritti riservati.",
-    "photos_credit": "Foto",
-    "photos_more": "e altri autori su Unsplash",
-    "bnb": "Il B&B: A spasso con Daisy · Chianti Home"
-  },
-  "natura": {
-    "meta_title": "Horses of Florence · Un viaggio lento verso l’armonia",
-    "phases": [
-      "Alba",
-      "Mattino",
-      "Mezzogiorno",
-      "Pomeriggio",
-      "Tramonto",
-      "Notte"
-    ],
-    "phases_label": "Il ritmo della giornata",
-    "hero": {
-      "line": "Lascia che sia il passo del cavallo a dettare il ritmo. Qui il tempo rallenta, e Ti ritrova.",
-      "cta": "Inizia il viaggio",
-      "scroll": "Scorri piano",
-      "illustration_alt": "Illustrazione: colline del Chianti all’alba, nella foschia azzurra, con file di cipressi e il sole che sorge"
-    },
-    "breath": {
-      "kicker": "Un momento per Te",
-      "title": "Prima di tutto, respira.",
-      "text": "Qui il tempo ha il passo del cavallo: lento, presente, sincero. Segui il cerchio per qualche respiro, poi prosegui.",
-      "inhale": "Inspira",
-      "exhale": "Espira"
-    },
-    "words": [
-      "Rallentare",
-      "Sentire",
-      "Ritrovarsi"
-    ],
-    "journey": {
-      "kicker": "Il viaggio",
-      "title": "Verso l’armonia, un passo alla volta",
-      "intro": "Ogni esperienza è un cammino, da terra e in sella, con due finalità: il rapporto con il Tuo cavallo e il ritorno a Te.",
-      "stops": [
-        {
-          "title": "Arrivare",
-          "text": "Lasci la fretta al cancello. Il primo passo è fermarsi, guardarsi intorno, respirare l’aria della campagna."
-        },
-        {
-          "title": "Ascoltare",
-          "text": "Da terra, accanto al cavallo: osservarlo, sentirne il respiro, accorgersi di ciò che percepisce. E di ciò che percepisci Tu."
-        },
-        {
-          "title": "Incontrarsi",
-          "text": "Con i nostri cavalli o con il Tuo compagno di vita o di lavoro, il lavoro da terra costruisce fiducia, ascolto e dialogo.",
-          "photo": "herd"
-        },
-        {
-          "title": "In sella",
-          "text": "Al passo, al trotto, al galoppo: l’equilibrio del corpo diventa equilibrio interiore. Mai più di tre cavalieri, perché l’istruttore possa curare ogni dettaglio."
-        },
-        {
-          "title": "Ritrovarsi",
-          "text": "Superare i blocchi emotivi, rigenerarsi, recuperare energie. Tornare a casa più leggeri, con uno sguardo nuovo su di Te.",
-          "photo": "grazing"
-        }
+  "apparel": "Vesti la nostra filosofia",
+  "home": {
+    "intro": "Nel cuore del Chianti fiorentino, dove l’aria profuma di storia e la luce accarezza le colline tipiche di questa terra, nasce Horses of Florence, per cui il cavallo non è solo compagno, ma guida.",
+    "bridge": {
+      "lead": "Un ponte",
+      "pairs": [
+        ["tra la terra", "e l’interiorità,"],
+        ["tra il movimento", "e il silenzio,"],
+        ["tra ciò che siamo", "e ciò che possiamo diventare."]
       ]
     },
-    "map": {
-      "kicker": "Il territorio",
-      "title": "Il Chianti, a passo lento",
-      "intro": "Intorno al B&B la campagna si apre in strade bianche, borghi di pietra e sapori antichi. Scegli le Tue esperienze.",
-      "note": "Mappa illustrativa, non in scala",
-      "alt": "Mappa illustrata del territorio tra Firenze e Siena: il torrente Pesa, la pista ciclabile dal B&B a Cerbaia, i borghi e i castelli del Chianti",
-      "places": {
-        "firenze": "Firenze",
-        "siena": "Siena",
-        "cerbaia": "Cerbaia",
-        "sancasciano": "San Casciano",
-        "greve": "Greve in Chianti",
-        "castellina": "Castellina in Chianti",
-        "monteriggioni": "Monteriggioni",
-        "tavarnelle": "Barberino Tavarnelle",
-        "bnb": "Il B&B",
-        "pesa": "Torrente Pesa",
-        "arno": "Arno"
-      }
+    "gates": "Qui, alle porte di Firenze, l’incontro con il cavallo diventa un’esperienza che trasforma.",
+    "moments": {
+      "items": ["Ogni passo,", "ogni sguardo,", "ogni respiro condiviso"],
+      "rest": "apre uno spazio nuovo: fatto di ascolto, di presenza, di verità."
+    },
+    "nature": [
+      "I cavalli vivono immersi nella natura, esprimono la loro essenza, e proprio per questo sanno riconoscere la nostra.",
+      "Ci leggono senza parole, ci accolgono senza giudizio, ci riportano ad un equilibrio che spesso dimentichiamo."
+    ],
+    "centre": {
+      "lead": "Horses of Florence è un invito",
+      "verbs": ["a rallentare,", "a sentire,", "a ritrovare il proprio centro."],
+      "body": [
+        "È un viaggio che unisce la bellezza della campagna fiorentina alla profondità della relazione con il cavallo.",
+        "Un viaggio che parla di autenticità, di armonia, di ritorno a sé sia per l’uomo che per il cavallo."
+      ]
+    },
+    "remember": {
+      "first": "Qui non si viene solo per imparare: si viene per ricordare.",
+      "clauses": ["Ricordare chi siamo,", "cosa ci fa stare bene,", "cosa ci rende vivi."]
     }
+  },
+  "for_you": {
+    "title": "Noi per voi",
+    "text": "Tra vigneti ed uliveti tipici della nostra terra, Ti accogliamo individualmente o in piccoli gruppi, di due, massimo tre cavalieri per permettere all’istruttore di curare anche i minimi dettagli, con il supporto dei nostri cavalli o del Tuo, che saremo lieti di ospitare presso la nostra struttura di riferimento, centro ippico affiliato alla Federazione italiana sport equestri, con il supporto di personale qualificato.",
+    "lead": "Effettueremo insieme canalizzazione con i cavalli sia da terra che in sella:",
+    "items": [
+      "Per migliorare il rapporto con il proprio amico a quattro zampe, sia compagno di vita oppure di lavoro;",
+      "Con l’aiuto dei cavalli, per superare blocchi emotivi che a volte ci affliggono, ritrovare se stessi o semplicemente per rigenerarsi, recuperare energie preziose di cui, talvolta, la vita frenetica che facciamo ci priva."
+    ],
+    "closing": "Insieme a Te pensiamo le vacanze presso di noi, o il Tuo tempo libero, in viaggio verso Te stesso."
+  },
+  "experiences": {
+    "title": "Scegli le tue esperienze",
+    "items": [
+      { "photos": ["florence", "cypress-road"], "text": "Esaurito il tempo tra i cavalli, potrai visitare borghi fortificati, piccoli paesi e castelli, ricchi di cultura e tradizioni millenarie, conoscerai la città di Siena e Firenze, famose in tutto il mondo." },
+      { "photos": ["pool", "hills"], "text": "Se ne avrai voglia, vedrai mete turistiche importanti raggiungibili anche in solo mezz’ora. Potrai rilassarTi in piscina oppure giocando a padel o praticando pesca sportiva nei pressi del B&B." },
+      { "photos": ["bike", "hills-golden"], "text": "Se ne avrai voglia, esplorerai la campagna circostante in bicicletta (è possibile affittarla) o a piedi camminando lungo il torrente Pesa, partendo dal B&B fino a raggiungere la località Cerbaia in Val di Pesa utilizzando pista ciclabile apposita." },
+      { "photos": ["vineyard", "olives"], "text": "Potrai inoltre degustare eccellenti olii e vini locali presso belle realtà produttive dove tradizione ed innovazione creano eccellenze." }
+    ],
+    "closing": "Così andrai alla scoperta di te stesso con il supporto dei nostri meravigliosi animali o con il Tuo cavallo perché ogni passo condiviso nella nostra terra sia un ritorno a ciò che siete davvero."
+  },
+  "contact": {
+    "title": "Contatti",
+    "invite": "Non aspettare domani per prenderti cura di Te, di Voi.",
+    "cta": "Chiedici informazioni oggi stesso.",
+    "channels": {
+      "whatsapp": "WhatsApp",
+      "email": "Email",
+      "phone": "Telefono",
+      "instagram": "Instagram"
+    }
+  },
+  "requirements": [
+    "Richiesta la conoscenza delle tre andature",
+    "Indossare abbigliamento idoneo"
+  ],
+  "footer": {
+    "rights": "Tutti i diritti riservati.",
+    "photos": "Foto"
   }
 }

@@ -20,7 +20,7 @@
       {
         "id": "dati-trattati",
         "title": "What data we process",
-        "html": "<p><strong>Browsing the website.</strong> The website is static and hosted on GitHub Pages, a service of GitHub, Inc. (United States, Microsoft group). To serve the pages, GitHub receives the IP address of visitors and logs it for security purposes. The website sets no cookies, stores nothing in your browser and loads no third-party resources: fonts and images are hosted on the website itself.</p><p><strong>Information requests.</strong> The “Contact” form sends nothing by itself: it prepares a message that you can review and send with WhatsApp or your email app. We therefore process the data you choose to share with us: your name, contact details, interests, dates, number of riders, whether you will bring your own horse and anything you tell us about yourself and your riding experience.</p><p><strong>Taking part in activities.</strong> To organise the sessions with the horses we may need some additional information, such as your riding experience and, if you bring your own horse, the details needed to stable it at our partner centre.</p>"
+        "html": "<p><strong>Browsing the website.</strong> The website is static and hosted on GitHub Pages, a service of GitHub, Inc. (United States, Microsoft group). To serve the pages, GitHub receives the IP address of visitors and logs it for security purposes. The website sets no cookies, stores nothing in your browser and loads no third-party resources: fonts and images are hosted on the website itself.</p><p><strong>Information requests.</strong> You can write to us by email, WhatsApp or phone using the details in the “Contact” section. We process the data you choose to share with us: your name, contact details and whatever you tell us in your message.</p><p><strong>Taking part in activities.</strong> To organise the sessions with the horses we may need some additional information, such as your riding experience and, if you bring your own horse, the details needed to stable it at our partner centre.</p>"
       },
       {
         "id": "finalita-basi-giuridiche",
@@ -40,7 +40,7 @@
       {
         "id": "destinatari",
         "title": "Who may receive the data",
-        "html": "<p>The data is never made public. It may be shared, only as far as necessary, with:</p><ul><li>technical service providers: GitHub (website hosting), the controller’s email provider and WhatsApp (Meta group), if you choose to write to us with that app;</li><li>our partner riding centre, to organise the sessions with the horses and, where relevant, the stabling of your horse;</li><li>professionals who assist the controller, such as the accountant;</li><li>public authorities, where required by law.</li></ul><p>If you choose to stay at the B&B A spasso con Daisy · Chianti Home, the data for your stay is processed according to the privacy notice published on the B&B website.</p>"
+        "html": "<p>The data is never made public. It may be shared, only as far as necessary, with:</p><ul><li>technical service providers: GitHub (website hosting), the controller’s email provider and WhatsApp (Meta group), if you choose to write to us with that app;</li><li>our partner riding centre, to organise the sessions with the horses and, where relevant, the stabling of your horse;</li><li>professionals who assist the controller, such as the accountant;</li><li>public authorities, where required by law.</li></ul>"
       },
       {
         "id": "trasferimenti-extra-ue",
@@ -50,7 +50,7 @@
       {
         "id": "cookie",
         "title": "Cookies",
-        "html": "<p>The website <strong>uses no cookies</strong>, either its own or third-party, and stores no information in your browser (for example in <em>localStorage</em>). It uses no analytics or profiling tools and embeds no external content such as maps, videos or social media widgets. That is why no consent banner appears.</p><p>Links to other websites, such as the B&B’s, WhatsApp or your email app, open only if you choose them: from then on, the privacy notices of those services apply.</p>"
+        "html": "<p>The website <strong>uses no cookies</strong>, either its own or third-party, and stores no information in your browser (for example in <em>localStorage</em>). It uses no analytics or profiling tools and embeds no external content such as maps, videos or social media widgets. That is why no consent banner appears.</p><p>Links to WhatsApp, Instagram or your email app open only if you choose them: from then on, the privacy notices of those services apply.</p>"
       },
       {
         "id": "diritti",

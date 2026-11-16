@@ -1,7 +1,8 @@
-{#- Struttura comune a tutte le pagine: head, header, footer -#}
+{#- Struttura comune a tutte le pagine: head, intestazione, menu, piè di pagina -#}
 {% from 'macros.html' import icon, wordmark with context %}
 {% set page_url = site.base_url ~ lang.path ~ page_path %}
 {% set lang_home = root ~ lang.path %}
+{% set apparel_href = site.apparel_url or (home ~ '#contatti') %}
 <!doctype html>
 <html lang="{{ lang.code }}" class="no-js">
 <head>
@@ -12,7 +13,7 @@
 {% if site.noindex %}
 <meta name="robots" content="noindex, nofollow">
 {% endif %}
-<meta name="theme-color" content="#14223d">
+<meta name="theme-color" content="#f7f3eb">
 <meta name="color-scheme" content="light">
 <link rel="canonical" href="{{ page_url }}">
 {% for l in site.languages %}
@@ -38,57 +39,68 @@
 <link rel="apple-touch-icon" href="{{ root }}assets/img/brand/apple-touch-icon.png">
 <link rel="manifest" href="{{ root }}site.webmanifest">
 <link rel="preload" href="{{ root }}assets/fonts/montserrat.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{ root }}assets/fonts/cormorant-garamond.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{ root }}assets/fonts/cormorant-garamond-italic.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="{{ root }}assets/fonts/jost.woff2" as="font" type="font/woff2" crossorigin>
 {% block preload %}{% endblock %}
 <link rel="stylesheet" href="{{ root }}assets/css/style.css">
-{% block styles %}{% endblock %}
-<script>document.documentElement.classList.replace('no-js','js')</script>
+<script>document.documentElement.classList.replace('no-js','js');if(matchMedia('(prefers-reduced-motion: reduce)').matches)document.documentElement.classList.add('still')</script>
 {% block head_extra %}{% endblock %}
 </head>
 <body class="page-{{ page }}">
 <!--ICON_SPRITE-->
 <a class="skip" href="#main">{{ t.ui.skip }}</a>
 
-<header class="site-header{% if page not in ('home', 'natura') %} is-solid{% endif %}" id="top">
-  <div class="site-header__inner">
-    <a class="brand" href="{{ home if home else '#top' }}" aria-label="{{ t.brand.home_label }}">
-      <img class="brand__mark" src="{{ root }}assets/img/brand/mark-navy.svg" width="40" height="56" alt="">
-      {{ wordmark('brand__name') }}
-    </a>
-    <nav class="nav" id="nav" aria-label="Menu">
-      <ul class="nav__list">
-        {% for item in t.nav %}
-        <li><a class="nav__link" href="{{ home }}{{ item.href }}">{{ item.label }}</a></li>
-        {% endfor %}
-      </ul>
-      <div class="nav__extra">
-        <ul class="langs" aria-label="{{ t.ui.lang_label }}">
-          {% for l in site.languages %}
-          <li><a href="{{ root }}{{ l.path }}{{ page_path }}" hreflang="{{ l.code }}" lang="{{ l.code }}"{% if l.code == lang.code %} aria-current="true"{% endif %}>{{ l.label }}</a></li>
-          {% endfor %}
-        </ul>
-        <a class="btn btn--navy btn--sm" href="{{ home }}#contatti">{{ t.nav_cta }}</a>
-      </div>
-    </nav>
-    <button class="menu-toggle" type="button" aria-controls="nav" aria-expanded="false" data-open="{{ t.ui.menu_open }}" data-close="{{ t.ui.menu_close }}">
-      <span class="sr-only">{{ t.ui.menu_open }}</span>
-      <span class="menu-toggle__bars" aria-hidden="true"></span>
-    </button>
-  </div>
+<header class="site-header{% if page != 'home' %} is-solid{% endif %}" id="top">
+  <button class="menu-btn" type="button" aria-controls="menu" aria-expanded="false" data-open="{{ t.ui.menu_open }}" data-close="{{ t.ui.menu_close }}">
+    <span class="menu-btn__lines" aria-hidden="true"></span>
+    <span class="sr-only">{{ t.ui.menu_open }}</span>
+  </button>
+  <a class="brand" href="{{ home if home else '#home' }}" aria-label="{{ t.ui.home_label }}">
+    <img class="brand__mark brand__mark--navy" src="{{ root }}assets/img/brand/mark-navy.svg" width="34" height="47" alt="">
+    <img class="brand__mark brand__mark--ivory" src="{{ root }}assets/img/brand/mark-ivory.svg" width="34" height="47" alt="">
+    {{ wordmark('brand__name') }}
+  </a>
+  <ul class="langs" aria-label="{{ t.ui.lang_label }}">
+    {% for l in site.languages %}
+    <li><a href="{{ root }}{{ l.path }}{{ page_path }}" hreflang="{{ l.code }}" lang="{{ l.code }}"{% if l.code == lang.code %} aria-current="true"{% endif %}>{{ l.label }}</a></li>
+    {% endfor %}
+  </ul>
 </header>
+
+<nav class="menu" id="menu" aria-label="Menu">
+  <div class="menu__inner">
+    <ol class="menu__list">
+      {% for item in t.nav %}
+      <li><a href="{{ home }}{{ item.href }}">{{ item.label }}</a></li>
+      {% endfor %}
+      <li class="menu__apparel"><a href="{{ apparel_href }}"{% if site.apparel_url %} target="_blank" rel="noopener"{% endif %}>{{ t.apparel }}</a></li>
+    </ol>
+    <p class="menu__tagline">{{ t.tagline }}</p>
+  </div>
+  <svg class="menu__land" viewBox="0 0 1600 260" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+    <path d="M0 120C200 80 420 96 620 116S1040 70 1260 84 1520 112 1600 104V260H0Z" fill="#dfe6ee"/>
+    <path d="M0 176C260 148 520 160 780 178S1300 146 1600 158V260H0Z" fill="#eaeef2"/>
+    <path d="M0 226C320 210 700 220 1020 232S1420 220 1600 224V260H0Z" fill="#f7f3eb"/>
+  </svg>
+</nav>
 
 {% block main %}{% endblock %}
 
-<footer class="site-footer">
-  <div class="container site-footer__inner">
-    <a class="site-footer__brand" href="{{ home if home else '#top' }}" aria-label="{{ t.brand.home_label }}">
-      <img class="site-footer__mark" src="{{ root }}assets/img/brand/mark-ivory.svg" width="96" height="134" alt="" loading="lazy" decoding="async">
+<footer class="site-footer" data-tone="dark">
+  <div class="site-footer__inner">
+    <a class="site-footer__brand" href="{{ home if home else '#home' }}" aria-label="{{ t.ui.home_label }}">
+      <img class="site-footer__mark" src="{{ root }}assets/img/brand/mark-ivory.svg" width="80" height="112" alt="" loading="lazy" decoding="async">
       {{ wordmark('site-footer__name') }}
     </a>
-    <p class="site-footer__tagline">{{ t.footer.tagline }}</p>
+    <p class="site-footer__tagline">{{ t.tagline }}</p>
+    <ul class="site-footer__req">
+      {% for r in t.requirements %}<li>{{ r }}</li>{% endfor %}
+    </ul>
     <nav aria-label="Footer">
       <ul class="site-footer__nav">
         {% for item in t.nav %}<li><a href="{{ home }}{{ item.href }}">{{ item.label }}</a></li>{% endfor %}
+        <li><a href="{{ apparel_href }}"{% if site.apparel_url %} target="_blank" rel="noopener"{% endif %}>{{ t.apparel }}</a></li>
       </ul>
     </nav>
     <ul class="langs langs--footer" aria-label="{{ t.ui.lang_label }}">
@@ -96,29 +108,16 @@
       <li><a href="{{ root }}{{ l.path }}{{ page_path }}" hreflang="{{ l.code }}" lang="{{ l.code }}"{% if l.code == lang.code %} aria-current="true"{% endif %}>{{ l.label }}</a></li>
       {% endfor %}
     </ul>
-    <p class="site-footer__note">{{ icon('horseshoe') }}<span>{{ t.footer.note }}</span></p>
-    <p class="site-footer__contact">
-      {% if site.email %}<a href="mailto:{{ site.email }}">{{ site.email }}</a> · {% endif %}
-      {{ t.contact.location }}
-    </p>
-    <ul class="site-footer__legal">
-      <li><a href="{{ lang_home }}privacy/"{% if page == 'privacy' %} aria-current="page"{% endif %}>{{ lg.labels.privacy }}</a></li>
-      <li><a href="{{ site.bnb_url }}" target="_blank" rel="noopener">{{ t.footer.bnb }}<span class="sr-only"> ({{ t.ui.new_tab }})</span></a></li>
-      {% if site.owner.vat %}<li>{{ lg.labels.vat }} {{ site.owner.vat }}</li>{% endif %}
-    </ul>
     <div class="site-footer__meta">
-      <p>© {{ site.year }} Horses of Florence. {{ t.footer.rights }}</p>
+      <p>© {{ site.year }} Horses of Florence. {{ t.footer.rights }} · <a href="{{ lang_home }}privacy/"{% if page == 'privacy' %} aria-current="page"{% endif %}>{{ lg.labels.privacy }}</a>{% if site.owner.vat %} · {{ lg.labels.vat }} {{ site.owner.vat }}{% endif %}</p>
       <p>
         {% set credited = photos.values() | selectattr('photographer') | list %}
-        {{ t.footer.photos_credit }}: {% for p in credited %}<a href="{{ p.unsplash_page_url }}" target="_blank" rel="noopener">{{ p.photographer }}</a>, {% endfor %}{{ t.footer.photos_more }}.
+        {{ t.footer.photos }}: {% for p in credited %}<a href="{{ p.unsplash_page_url }}" target="_blank" rel="noopener">{{ p.photographer }}</a>, {% endfor %}Unsplash.
       </p>
-      {% if site.noindex %}<p class="site-footer__preview">{{ t.ui.preview_note }}</p>{% endif %}
-      <a class="site-footer__top" href="#top">{{ icon('arrow-down', 'icon--up') }}<span>{{ t.ui.back_top }}</span></a>
     </div>
   </div>
 </footer>
 
 <script src="{{ root }}assets/js/main.js" defer></script>
-{% block scripts %}{% endblock %}
 </body>
 </html>

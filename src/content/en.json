@@ -2,391 +2,96 @@
   "locale": "en_GB",
   "meta": {
     "title": "Horses of Florence · On horseback, on a journey towards harmony",
-    "description": "In the Florentine Chianti, at the gates of Florence: groundwork and ridden work with horses, for one to three riders at a time. To rediscover your bond with your horse, and with yourself.",
-    "og_image_alt": "Horses of Florence: the logo with a horse’s head and the lily of Florence, next to a horse with a wind-blown mane"
+    "description": "In the heart of the Florentine Chianti, where the air is fragrant with history and the light caresses the hills so typical of this land, Horses of Florence was born: here the horse is not only a companion, but a guide.",
+    "og_image_alt": "Horses of Florence. On horseback, on a journey towards harmony."
   },
   "ui": {
     "skip": "Skip to content",
     "menu_open": "Open menu",
     "menu_close": "Close menu",
     "lang_label": "Language",
-    "back_top": "Back to top",
     "new_tab": "opens in a new tab",
     "todo": "to be completed",
-    "preview_note": "Website preview: the content is under review and the page is not yet indexed by search engines."
+    "home_label": "Horses of Florence, back to the top"
   },
-  "brand": {
-    "home_label": "Horses of Florence, back to the top",
-    "logo_alt": "Horses of Florence: stylised horse’s head with the lily of Florence"
-  },
+  "brand": "Horses of Florence",
+  "tagline": "On horseback, on a journey towards harmony.",
   "nav": [
-    {
-      "href": "#progetto",
-      "label": "The project"
-    },
-    {
-      "href": "#noi-per-voi",
-      "label": "For you"
-    },
-    {
-      "href": "#esperienze",
-      "label": "Experiences"
-    },
-    {
-      "href": "#abbigliamento",
-      "label": "Apparel"
-    },
-    {
-      "href": "#contatti",
-      "label": "Contact"
-    }
+    { "href": "#home", "label": "Home" },
+    { "href": "#noi-per-voi", "label": "For you" },
+    { "href": "#esperienze", "label": "Choose your experiences" },
+    { "href": "#contatti", "label": "Contact" }
   ],
-  "nav_cta": "Write to us",
-  "hero": {
-    "kicker": "Florentine Chianti · at the gates of Florence",
-    "title": "On horseback, on a journey towards harmony",
-    "text": "Here the horse is not just a companion but a guide: a bridge between the earth and your inner self.",
-    "cta_primary": "Discover the project",
-    "cta_secondary": "Ask for information",
-    "facts": [
-      {
-        "icon": "guests",
-        "text": "1 to 3 riders"
-      },
-      {
-        "icon": "horse",
-        "text": "On the ground and in the saddle"
-      },
-      {
-        "icon": "award",
-        "text": "FISE-affiliated centre"
-      }
-    ],
-    "scroll": "Scroll"
-  },
-  "philosophy": {
-    "kicker": "The project",
-    "title": "Slow down, feel, find your centre again",
-    "lead": "Horses of Florence was born in the heart of the Florentine Chianti from a simple idea: time spent with a horse can become a way back to yourself.",
-    "paragraphs": [
-      "A horse lives in the present and responds to who we truly are, not to who we would like to appear. Beside a horse, we learn to listen again: to our breath, our body, our emotions.",
-      "We bring together the beauty of the Florentine countryside, with its vineyards, olive groves and stone villages, and the depth of the bond with the animal. An invitation to pause, to feel and to find your balance again."
-    ],
-    "quote": "The horse is not just a companion, but a guide.",
-    "pillars": [
-      {
-        "icon": "leaf",
-        "title": "Slow down",
-        "text": "Leave the rush behind and find the rhythm of the walk, of your breath, of nature."
-      },
-      {
-        "icon": "horse-heart",
-        "title": "Feel",
-        "text": "Notice what the horse perceives, and what you perceive through the horse."
-      },
-      {
-        "icon": "meditation",
-        "title": "Find your centre",
-        "text": "Go home lighter, with new energy and a clearer view of yourself."
-      }
-    ]
-  },
-  "band": {
-    "quote": "Every encounter with a horse is a journey: towards the horse, and towards yourself.",
-    "caption": "Horses of Florence"
-  },
-  "for_you": {
-    "kicker": "For you",
-    "title": "A welcome made to measure",
-    "intro": "We welcome no more than one to three riders at a time, so that the instructor can take care of even the smallest details. You choose the pace: we take care of the rest.",
-    "riders_label": "riders at a time, at most",
-    "features": [
-      {
-        "icon": "guests",
-        "title": "Individually or in small groups",
-        "text": "One to three riders at a time: full attention, tailored to each person."
-      },
-      {
-        "icon": "horse",
-        "title": "Our horses or your own",
-        "text": "Work with the centre’s horses or with your own companion, who can be stabled at our partner centre."
-      },
-      {
-        "icon": "award",
-        "title": "A FISE centre",
-        "text": "Our partner riding centre is affiliated with the Italian Equestrian Sports Federation (FISE), with qualified staff."
-      },
-      {
-        "icon": "house",
-        "title": "Stay in the Chianti",
-        "text": "Stay at the B&B and live your holiday, or your free time, as a journey towards yourself."
-      }
-    ]
-  },
-  "paths": {
-    "kicker": "On the ground and in the saddle",
-    "title": "Two paths, one harmony",
-    "intro": "We work with the horses both on the ground and in the saddle, with two main aims.",
-    "items": [
-      {
-        "photo": "herd",
-        "label": "For you and your horse",
-        "title": "Improve the bond with your horse",
-        "text": "To get to know your horse more deeply, communicate more clearly and strengthen the bond with your companion in life or at work.",
-        "points": [
-          "Groundwork and ridden work",
-          "Listening and communication",
-          "Mutual trust"
-        ]
-      },
-      {
-        "photo": "grazing",
-        "label": "For you",
-        "title": "Find yourself again",
-        "text": "To move past emotional blocks, find yourself again, regenerate and recharge, at the slow pace of the Tuscan countryside.",
-        "points": [
-          "Move past emotional blocks",
-          "Find yourself again",
-          "Regenerate and recharge"
-        ]
-      }
-    ]
-  },
-  "experiences": {
-    "kicker": "Choose your experiences",
-    "title": "Beyond your time with the horses",
-    "intro": "The Florentine Chianti invites you to explore. Around the B&B, gravel roads, footpaths and flavours make every stay unique.",
-    "items": [
-      {
-        "photo": "cypress-road",
-        "icon": "castle",
-        "title": "Fortified villages and castles",
-        "text": "Small stone villages, ancient walls and castles on the hills: the most authentic Tuscany, close at hand."
-      },
-      {
-        "photo": "florence",
-        "icon": "church",
-        "title": "Florence, Siena and beyond",
-        "text": "The cities of art and other destinations, some just half an hour away.",
-        "badge": "from 30 minutes"
-      },
-      {
-        "photo": "bike",
-        "icon": "bike",
-        "title": "By bike or on foot along the Pesa",
-        "text": "From the B&B to Cerbaia in Val di Pesa, along the cycle path that follows the stream. Bikes available to hire."
-      },
-      {
-        "photo": "pool",
-        "icon": "pool",
-        "title": "Pool, padel and fishing",
-        "text": "For an afternoon of sport or pure relaxation, near the B&B."
-      },
-      {
-        "photo": "vineyard",
-        "icon": "grapes",
-        "title": "Local olive oil and wine",
-        "text": "Olive oil and wine tastings at local producers."
-      }
-    ]
-  },
-  "stay": {
-    "kicker": "Your stay",
-    "title": "A home among the hills",
-    "paragraphs": [
-      "To enjoy the experience without hurrying, you can stay at the B&B A spasso con Daisy · Chianti Home: two apartments in Barberino Tavarnelle, in the heart of the Chianti, a short walk from the Pesa stream.",
-      "A holiday, or even just a weekend, to live as a journey towards yourself."
-    ],
-    "cta": "Discover the B&B",
-    "note": "The B&B website opens in a new tab."
-  },
-  "know": {
-    "kicker": "Before you come",
-    "title": "What you need",
-    "items": [
-      {
-        "icon": "horseshoe",
-        "title": "The three gaits",
-        "text": "You should be confident at the three gaits: walk, trot and canter."
-      },
-      {
-        "icon": "boot",
-        "title": "Suitable clothing",
-        "text": "Wear clothing suitable for riding: comfortable, safe and made for the saddle."
-      }
-    ]
-  },
-  "apparel": {
-    "kicker": "Apparel",
-    "title": "Wear our philosophy",
-    "text": "A clothing line in the colours of the project, so you can carry a little of this harmony with you, even far from the stables.",
-    "colors": [
-      {
-        "name": "Blue",
-        "class": "blue"
-      },
-      {
-        "name": "White",
-        "class": "white"
-      },
-      {
-        "name": "Silver",
-        "class": "silver"
-      }
-    ],
-    "cta_shop": "Discover the collection",
-    "cta_info": "Ask for information",
-    "soon": "Collection coming soon"
-  },
-  "contact": {
-    "kicker": "Contact",
-    "title": "Don’t wait until tomorrow to take care of yourself, of each other.",
-    "intro": "Tell us who you are, whether you will come with your own horse and what you are looking for: we will reply to shape your experience together.",
-    "direct_title": "Write to us directly",
-    "location": "Florentine Chianti, at the gates of Florence",
-    "email_todo": "Email address",
-    "form": {
-      "title": "Request information",
-      "name": "Name",
-      "name_ph": "What’s your name?",
-      "interest": "I’m interested in",
-      "interests": [
-        {
-          "value": "relationship",
-          "label": "Improving the bond with my horse"
-        },
-        {
-          "value": "self",
-          "label": "Finding myself again and recharging"
-        },
-        {
-          "value": "stay",
-          "label": "A stay and local experiences"
-        },
-        {
-          "value": "apparel",
-          "label": "The clothing line"
-        },
-        {
-          "value": "other",
-          "label": "Something else"
-        }
-      ],
-      "riders": "Riders",
-      "riders_options": [
-        "1",
-        "2",
-        "3"
-      ],
-      "own_horse": "I will bring my own horse",
-      "period": "When",
-      "period_ph": "E.g. a week in May",
-      "message": "Message",
-      "message_ph": "Tell us a little about yourself and your experience with horses",
-      "requirements": "I confirm I am confident at the three gaits (walk, trot and canter).",
-      "send_whatsapp": "Send via WhatsApp",
-      "send_email": "Send by email",
-      "privacy_note": "The form prepares the message in your app: nothing is sent until you confirm it.",
-      "privacy_link": "Privacy notice"
-    },
-    "message": {
-      "greeting": "Hello, I would like some information about Horses of Florence.",
-      "subject": "Information request",
-      "name": "Name",
-      "interest": "Interested in",
-      "riders": "Riders",
-      "own_horse": "Bringing my own horse",
-      "period": "When",
-      "gaits": "Confident at the three gaits",
-      "yes": "yes",
-      "no": "no"
-    }
-  },
-  "footer": {
-    "tagline": "On horseback, on a journey towards harmony.",
-    "note": "Riders must be confident at the three gaits · Suitable riding clothing required",
-    "rights": "All rights reserved.",
-    "photos_credit": "Photos",
-    "photos_more": "and other photographers on Unsplash",
-    "bnb": "The B&B: A spasso con Daisy · Chianti Home"
-  },
-  "natura": {
-    "meta_title": "Horses of Florence · A slow journey towards harmony",
-    "phases": [
-      "Dawn",
-      "Morning",
-      "Midday",
-      "Afternoon",
-      "Sunset",
-      "Night"
-    ],
-    "phases_label": "The rhythm of the day",
-    "hero": {
-      "line": "Let the horse’s pace set the rhythm. Here time slows down, and finds you again.",
-      "cta": "Begin the journey",
-      "scroll": "Scroll slowly",
-      "illustration_alt": "Illustration: the Chianti hills at dawn in a blue haze, with rows of cypresses and the rising sun"
-    },
-    "breath": {
-      "kicker": "A moment for you",
-      "title": "First of all, breathe.",
-      "text": "Here time moves at the pace of a horse: slow, present, honest. Follow the circle for a few breaths, then carry on.",
-      "inhale": "Breathe in",
-      "exhale": "Breathe out"
-    },
-    "words": [
-      "Slow down",
-      "Feel",
-      "Find yourself"
-    ],
-    "journey": {
-      "kicker": "The journey",
-      "title": "Towards harmony, one step at a time",
-      "intro": "Every experience is a path, on the ground and in the saddle, with two aims: your bond with your horse, and the way back to yourself.",
-      "stops": [
-        {
-          "title": "Arrive",
-          "text": "Leave the rush at the gate. The first step is to stop, look around and breathe the country air."
-        },
-        {
-          "title": "Listen",
-          "text": "On the ground, beside the horse: watch, feel its breath, notice what it perceives. And what you perceive."
-        },
-        {
-          "title": "Meet",
-          "text": "With our horses or with your own companion in life or at work, groundwork builds trust, listening and dialogue.",
-          "photo": "herd"
-        },
-        {
-          "title": "In the saddle",
-          "text": "At walk, trot and canter, the balance of the body becomes inner balance. Never more than three riders, so the instructor can care for every detail."
-        },
-        {
-          "title": "Find yourself",
-          "text": "Move past emotional blocks, regenerate, recharge. Go home lighter, with a new view of yourself.",
-          "photo": "grazing"
-        }
+  "apparel": "Wear our philosophy",
+  "home": {
+    "intro": "In the heart of the Florentine Chianti, where the air is fragrant with history and the light caresses the hills so typical of this land, Horses of Florence was born: here the horse is not only a companion, but a guide.",
+    "bridge": {
+      "lead": "A bridge",
+      "pairs": [
+        ["between the earth", "and the inner self,"],
+        ["between movement", "and silence,"],
+        ["between who we are", "and who we can become."]
       ]
     },
-    "map": {
-      "kicker": "The land",
-      "title": "The Chianti, at a slow pace",
-      "intro": "Around the B&B the countryside opens up into gravel roads, stone villages and age-old flavours. Choose your experiences.",
-      "note": "Illustrative map, not to scale",
-      "alt": "Illustrated map of the area between Florence and Siena: the Pesa stream, the cycle path from the B&B to Cerbaia, the villages and castles of the Chianti",
-      "places": {
-        "firenze": "Florence",
-        "siena": "Siena",
-        "cerbaia": "Cerbaia",
-        "sancasciano": "San Casciano",
-        "greve": "Greve in Chianti",
-        "castellina": "Castellina in Chianti",
-        "monteriggioni": "Monteriggioni",
-        "tavarnelle": "Barberino Tavarnelle",
-        "bnb": "The B&B",
-        "pesa": "Pesa stream",
-        "arno": "Arno"
-      }
+    "gates": "Here, at the gates of Florence, meeting the horse becomes an experience that transforms.",
+    "moments": {
+      "items": ["Every step,", "every glance,", "every shared breath"],
+      "rest": "opens a new space: one of listening, of presence, of truth."
+    },
+    "nature": [
+      "Horses live immersed in nature and express their essence, and that is precisely why they can recognise ours.",
+      "They read us without words, welcome us without judgement, and lead us back to a balance we often forget."
+    ],
+    "centre": {
+      "lead": "Horses of Florence is an invitation",
+      "verbs": ["to slow down,", "to feel,", "to find your centre again."],
+      "body": [
+        "It is a journey that brings together the beauty of the Florentine countryside and the depth of the relationship with the horse.",
+        "A journey that speaks of authenticity, of harmony, of a return to oneself, for the person and for the horse alike."
+      ]
+    },
+    "remember": {
+      "first": "Here you do not come only to learn: you come to remember.",
+      "clauses": ["To remember who we are,", "what makes us feel good,", "what makes us feel alive."]
     }
+  },
+  "for_you": {
+    "title": "For you",
+    "text": "Among the vineyards and olive groves so typical of our land, we welcome you individually or in small groups of two, at most three riders, so that the instructor can take care of even the smallest details, with the support of our horses or your own, which we will be happy to host at our partner facility, a riding centre affiliated with the Italian Equestrian Sports Federation, with the support of qualified staff.",
+    "lead": "Together, we will practise channelling with the horses, both on the ground and in the saddle:",
+    "items": [
+      "To improve the bond with your four-legged friend, whether a companion in life or at work;",
+      "With the help of the horses, to overcome the emotional blocks that sometimes weigh on us, to find ourselves again, or simply to regenerate and recover the precious energy that our hectic lives sometimes take from us."
+    ],
+    "closing": "Together with you, we plan your holidays with us, or your free time, on a journey towards yourself."
+  },
+  "experiences": {
+    "title": "Choose your experiences",
+    "items": [
+      { "photos": ["florence", "cypress-road"], "text": "When your time with the horses is over, you can visit fortified villages, small towns and castles, rich in culture and age-old traditions, and get to know the cities of Siena and Florence, famous all over the world." },
+      { "photos": ["pool", "hills"], "text": "If you feel like it, you will see important tourist destinations, some just half an hour away. You can relax by the pool, play padel or go sport fishing near the B&B." },
+      { "photos": ["bike", "hills-golden"], "text": "If you feel like it, you will explore the surrounding countryside by bike (bikes can be hired) or on foot, walking along the Pesa stream from the B&B all the way to Cerbaia in Val di Pesa, on a dedicated cycle path." },
+      { "photos": ["vineyard", "olives"], "text": "You can also taste excellent local olive oils and wines at fine producers where tradition and innovation create excellence." }
+    ],
+    "closing": "And so you will set out to discover yourself, with the support of our wonderful animals or with your own horse, so that every step shared in our land is a return to who you truly are."
+  },
+  "contact": {
+    "title": "Contact",
+    "invite": "Don’t wait until tomorrow to take care of yourself, of you both.",
+    "cta": "Ask us for information today.",
+    "channels": {
+      "whatsapp": "WhatsApp",
+      "email": "Email",
+      "phone": "Phone",
+      "instagram": "Instagram"
+    }
+  },
+  "requirements": [
+    "Knowledge of the three gaits required",
+    "Suitable riding clothing required"
+  ],
+  "footer": {
+    "rights": "All rights reserved.",
+    "photos": "Photos"
   }
 }

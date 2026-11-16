@@ -135,5 +135,27 @@
     "focus": "50% 82%",
     "alt_it": "Firenze al tramonto: l'Arno e Ponte Vecchio",
     "alt_en": "Florence at sunset: the Arno and the Ponte Vecchio"
+  },
+  {
+    "slug": "olives",
+    "photographer": "Emre",
+    "unsplash_page_url": "https://unsplash.com/photos/iRVq6avVGDE",
+    "image_id": "photo-1530642137456-0eb9e57741e4",
+    "width_1600": 1600,
+    "height_1600": 1067,
+    "dominant": "#2d261f",
+    "alt_it": "Ramo d'olivo carico di olive verdi",
+    "alt_en": "Olive branch with green olives"
+  },
+  {
+    "slug": "hills",
+    "photographer": "Rowan Heuvel",
+    "unsplash_page_url": "https://unsplash.com/photos/xYYBo69fvQE",
+    "image_id": "photo-1438076783188-4bdaa16c21df",
+    "width_1600": 1600,
+    "height_1600": 1066,
+    "dominant": "#728879",
+    "alt_it": "Colline del Chianti presso Castellina: vigneti, cipressi e un casale in pietra",
+    "alt_en": "Chianti hills near Castellina: vineyards, cypresses and a stone farmhouse"
   }
 ]

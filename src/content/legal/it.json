@@ -20,7 +20,7 @@
       {
         "id": "dati-trattati",
         "title": "Quali dati trattiamo",
-        "html": "<p><strong>Navigazione sul sito.</strong> Il sito è statico ed è ospitato su GitHub Pages, servizio di GitHub, Inc. (Stati Uniti, gruppo Microsoft). Per mostrare le pagine, GitHub riceve l’indirizzo IP di chi visita il sito e lo registra per finalità di sicurezza. Il sito non installa cookie, non salva dati nel browser e non carica risorse di terze parti: caratteri e immagini sono ospitati sul sito stesso.</p><p><strong>Richieste di informazioni.</strong> Il modulo «Contatti» non invia nulla da solo: prepara un messaggio che puoi rivedere e spedire con WhatsApp o con la Tua app di posta. Trattiamo quindi i dati che scegli di comunicarci: nome, recapiti, interessi, periodo, numero di cavalieri, se verrai con il Tuo cavallo e quanto ci racconti di Te e della Tua esperienza in sella.</p><p><strong>Partecipazione alle attività.</strong> Per organizzare le sessioni con i cavalli possono servire alcuni dati aggiuntivi, ad esempio il livello di esperienza a cavallo e, se porti il Tuo cavallo, le informazioni necessarie a ospitarlo presso la struttura di riferimento.</p>"
+        "html": "<p><strong>Navigazione sul sito.</strong> Il sito è statico ed è ospitato su GitHub Pages, servizio di GitHub, Inc. (Stati Uniti, gruppo Microsoft). Per mostrare le pagine, GitHub riceve l’indirizzo IP di chi visita il sito e lo registra per finalità di sicurezza. Il sito non installa cookie, non salva dati nel browser e non carica risorse di terze parti: caratteri e immagini sono ospitati sul sito stesso.</p><p><strong>Richieste di informazioni.</strong> Puoi scriverci via email, WhatsApp o telefono dai recapiti della sezione «Contatti». Trattiamo i dati che scegli di comunicarci: nome, recapiti e quanto ci racconti nel messaggio.</p><p><strong>Partecipazione alle attività.</strong> Per organizzare le sessioni con i cavalli possono servire alcuni dati aggiuntivi, ad esempio il livello di esperienza a cavallo e, se porti il Tuo cavallo, le informazioni necessarie a ospitarlo presso la struttura di riferimento.</p>"
       },
       {
         "id": "finalita-basi-giuridiche",
@@ -40,7 +40,7 @@
       {
         "id": "destinatari",
         "title": "A chi possono essere comunicati i dati",
-        "html": "<p>I dati non vengono diffusi. Possono riceverli, solo nella misura necessaria:</p><ul><li>i fornitori di servizi tecnici: GitHub (hosting del sito), il fornitore di posta elettronica del titolare e WhatsApp (gruppo Meta), se scegli di scriverci con questa app;</li><li>il centro ippico di riferimento, per organizzare le sessioni con i cavalli e l’eventuale ospitalità del Tuo cavallo;</li><li>i professionisti che assistono il titolare, ad esempio il commercialista;</li><li>le autorità pubbliche, quando lo prevede la legge.</li></ul><p>Se scegli di soggiornare al B&B A spasso con Daisy · Chianti Home, i dati del soggiorno sono trattati secondo l’informativa privacy pubblicata sul sito del B&B.</p>"
+        "html": "<p>I dati non vengono diffusi. Possono riceverli, solo nella misura necessaria:</p><ul><li>i fornitori di servizi tecnici: GitHub (hosting del sito), il fornitore di posta elettronica del titolare e WhatsApp (gruppo Meta), se scegli di scriverci con questa app;</li><li>il centro ippico di riferimento, per organizzare le sessioni con i cavalli e l’eventuale ospitalità del Tuo cavallo;</li><li>i professionisti che assistono il titolare, ad esempio il commercialista;</li><li>le autorità pubbliche, quando lo prevede la legge.</li></ul>"
       },
       {
         "id": "trasferimenti-extra-ue",
@@ -50,7 +50,7 @@
       {
         "id": "cookie",
         "title": "Cookie",
-        "html": "<p>Il sito <strong>non usa cookie</strong>, né propri né di terze parti, e non salva informazioni nel browser (ad esempio con il <em>localStorage</em>). Non usa strumenti statistici o di profilazione e non incorpora contenuti esterni come mappe, video o widget dei social network. Per questo non compare alcun banner per il consenso.</p><p>I link verso altri siti, come quello del B&B, WhatsApp o la Tua app di posta, si aprono solo se li scegli Tu: da quel momento valgono le informative dei rispettivi servizi.</p>"
+        "html": "<p>Il sito <strong>non usa cookie</strong>, né propri né di terze parti, e non salva informazioni nel browser (ad esempio con il <em>localStorage</em>). Non usa strumenti statistici o di profilazione e non incorpora contenuti esterni come mappe, video o widget dei social network. Per questo non compare alcun banner per il consenso.</p><p>I link verso WhatsApp, Instagram o la Tua app di posta si aprono solo se li scegli Tu: da quel momento valgono le informative dei rispettivi servizi.</p>"
       },
       {
         "id": "diritti",

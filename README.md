@@ -106,7 +106,8 @@ Lo stesso approccio del sito del B&B *A spasso con Daisy*: sito vetrina statico,
 | Stili | CSS scritto a mano (`assets/css/style.css`), nessun framework |
 | Font | Montserrat (titoli, simile alla scritta del logo), Jost (testo, come il B&B), Cormorant Garamond corsivo (citazioni). Ospitati nel sito, licenza OFL |
 | Hosting / deploy | GitHub Pages tramite GitHub Actions (`.github/workflows/pages.yml`) |
-| Modulo contatti | Prepara il messaggio e lo apre in WhatsApp o nell'app di posta: nessun server, nessun dato salvato |
+| Contatti | Collegamenti diretti a WhatsApp, email, telefono e Instagram (da `src/site.json`): nessun modulo, nessun dato salvato |
+| Animazioni | `assets/js/main.js`: ogni movimento dipende solo dalla posizione di scorrimento, va avanti scendendo e si riavvolge risalendo. Con «riduci movimento» attivo, o senza JavaScript, tutto resta fermo e visibile |
 | Cookie | Nessuno: niente statistiche né contenuti di terze parti, quindi niente banner |
 
 ## Struttura del repository
@@ -114,16 +115,14 @@ Lo stesso approccio del sito del B&B *A spasso con Daisy*: sito vetrina statico,
 ```text
 .
 ├── index.html, privacy/, en/          pagine generate (non modificarle a mano)
-├── natura/, en/natura/                proposta alternativa della home, «una giornata nel Chianti»
 ├── src/
-│   ├── content/it.json, en.json       testi delle pagine
+│   ├── content/it.json, en.json       testi delle pagine (solo i testi forniti, e la loro traduzione)
 │   ├── content/legal/it.json, en.json informativa privacy e cookie
 │   ├── site.json                      contatti, link, titolare, opzioni
-│   └── base.html, home.html, natura.html, legal.html, macros.html   template
+│   └── base.html, home.html, legal.html, macros.html   template
 ├── assets/
 │   ├── css/style.css                  stile (blu, avorio, argento)
-│   ├── css/natura.css, js/natura.js   stile e movimenti della proposta «natura»
-│   ├── js/main.js                     header, menu mobile, animazioni, modulo contatti
+│   ├── js/main.js                     menu, intestazione, movimenti legati allo scorrimento
 │   ├── fonts/                         font ospitati in locale
 │   └── img/
 │       ├── brand/                     logo originale (PDF), versioni vettoriali SVG, favicon, immagine social
@@ -137,9 +136,20 @@ Lo stesso approccio del sito del B&B *A spasso con Daisy*: sito vetrina statico,
 └── README.md
 ```
 
-### Proposta «natura»
+### Le scene della home
 
-In `natura/` (e `en/natura/`) c'è una seconda versione della home, da confrontare con quella attuale. Racconta il progetto come una giornata nel Chianti: il cielo passa dall'alba alla notte mentre si scorre. Contiene un paesaggio illustrato di colline nella foschia, un cerchio che invita a respirare, un sentiero che si disegna tappa dopo tappa, la mappa illustrata del territorio, il soggiorno al tramonto e i contatti sotto le stelle. I testi nuovi sono in `src/content/<lingua>.json`, chiave `natura`.
+La home racconta i testi come una sequenza di scene. Ogni movimento segue lo scorrimento:
+
+1. **Soglia**: il nome e il logo, poi un arco si apre sulle colline del Chianti all'alba (disegno vettoriale, inciso a linee sottili). Il sole sale mentre le parole del primo testo compaiono una alla volta.
+2. **Un ponte**: tre archi si disegnano tra le coppie di parole.
+3. **Alle porte di Firenze**: la foto si avvicina lentamente.
+4. **Ogni passo, ogni sguardo, ogni respiro**: tre finestre ad arco si aprono come uno sguardo.
+5. **Immersi nella natura**: un ramo d'olivo disegnato a inchiostro.
+6. **Il proprio centro**: gli anelli di un tronco si chiudono verso il centro.
+7. **Ricordare**: la parola in lamina d'argento cattura la luce.
+8. **Noi per voi**: capolettera, filari disegnati, le due finalità.
+9. **Scegli le tue esperienze**: su computer la campagna scorre in orizzontale lungo il torrente Pesa; su telefono è una colonna.
+10. **Contatti** sotto le stelle, poi **Vesti la nostra filosofia**.
 
 ### Logo
 
@@ -182,17 +192,16 @@ Poi apri http://localhost:8000.
 ### Come modificare i testi
 
 1. Testi delle pagine: `src/content/it.json` ed `en.json` (stessa struttura).
-2. Privacy e cookie: `src/content/legal/it.json` ed `en.json`.
+2. Privacy e cookie: `src/content/legal/it.json` ed `en.json` (testo tecnico obbligatorio, da far rivedere).
 3. Email, WhatsApp, telefono, Instagram, link all'abbigliamento e dati del titolare: `src/site.json`.
 4. Rigenera le pagine con `python3 build.py`.
 
 | Campo di `src/site.json` | Note |
 |---|---|
-| `email` | Indirizzo per il modulo e per la privacy. Finché manca, il sito mostra un segnaposto giallo «[da completare]». |
-| `whatsapp` | Solo cifre, con prefisso (es. `393331234567`). Se è vuoto, WhatsApp fa scegliere il contatto. |
+| `email` | Indirizzo per i contatti e per la privacy. Finché manca, il sito mostra un segnaposto giallo «[da completare]». |
+| `whatsapp` | Solo cifre, con prefisso (es. `393331234567`). Finché manca, compare il segnaposto. |
 | `phone`, `instagram` | Facoltativi: compaiono nei contatti solo se compilati. |
-| `apparel_url` | Link alla linea di abbigliamento. Finché è vuoto, il pulsante porta al modulo contatti e compare «Collezione in arrivo». |
-| `bnb_url` | Sito del B&B. |
+| `apparel_url` | Link a «Vesti la nostra filosofia». Finché è vuoto, il collegamento porta ai contatti. |
 | `owner` | Titolare del trattamento per l'informativa privacy. |
 | `noindex` | `true` tiene l'anteprima fuori da Google. Mettere `false` alla pubblicazione definitiva. |
 
@@ -208,12 +217,12 @@ Tutti i percorsi sono relativi, quindi il sito funziona anche con un dominio pro
 
 - [x] Scegliere e documentare lo stack tecnologico
 - [x] Ricavare logo vettoriale e palette (blu, avorio, argento)
-- [x] Prima versione dei testi in italiano e traduzione inglese
-- [x] Modulo di richiesta informazioni (WhatsApp / email)
+- [x] Testi definitivi in italiano e traduzione inglese
+- [x] Contatti diretti (WhatsApp, email, telefono, Instagram)
 - [x] SEO bilingue (`hreflang`, meta tag, dati strutturati, immagine per i social)
 - [x] Accessibilità e prestazioni di base (mobile first, foto WebP, font locali)
 - [x] Informativa privacy e cookie
-- [ ] Rileggere i testi: la versione italiana approvata va confrontata con quella del sito, e la traduzione inglese va rivista
+- [ ] Rileggere la traduzione inglese
 - [ ] Email, WhatsApp/telefono e dati del titolare in `src/site.json`
 - [ ] Foto vere dei cavalli, delle sessioni e della struttura al posto di quelle di Unsplash
 - [ ] Link alla linea di abbigliamento ("Vesti la nostra filosofia") in `apparel_url`
