@@ -1,0 +1,72 @@
+{
+  "labels": {
+    "privacy": "Privacy e cookie",
+    "back_home": "Torna al sito",
+    "updated": "Ultimo aggiornamento",
+    "vat": "P. IVA",
+    "todo": "da completare",
+    "on_this_page": "In questa pagina"
+  },
+  "privacy": {
+    "title": "Informativa sulla privacy e sui cookie",
+    "meta_description": "Come Horses of Florence tratta i dati personali di chi visita il sito o chiede informazioni. Il sito non usa cookie.",
+    "intro": "Questa informativa, resa ai sensi dell’art. 13 del Regolamento (UE) 2016/679 («GDPR»), spiega come vengono trattati i dati personali di chi visita il sito di Horses of Florence, chiede informazioni o partecipa alle attività. In sintesi: il sito non usa cookie né strumenti statistici, e i dati che ci invii servono solo a risponderti e a organizzare la Tua esperienza.",
+    "sections": [
+      {
+        "id": "titolare",
+        "title": "Titolare del trattamento",
+        "html": "<p>Il titolare del trattamento è <strong>%%owner_name%%</strong>, %%owner_address%%, C.F./P. IVA %%owner_tax_id%%, che gestisce il progetto Horses of Florence e il sito %%site_url%%.</p><p>Per domande su questa informativa o per esercitare i Tuoi diritti puoi scrivere a <a href=\"mailto:%%email%%\">%%email%%</a>.</p>"
+      },
+      {
+        "id": "dati-trattati",
+        "title": "Quali dati trattiamo",
+        "html": "<p><strong>Navigazione sul sito.</strong> Il sito è statico ed è ospitato su GitHub Pages, servizio di GitHub, Inc. (Stati Uniti, gruppo Microsoft). Per mostrare le pagine, GitHub riceve l’indirizzo IP di chi visita il sito e lo registra per finalità di sicurezza. Il sito non installa cookie, non salva dati nel browser e non carica risorse di terze parti: caratteri e immagini sono ospitati sul sito stesso.</p><p><strong>Richieste di informazioni.</strong> Il modulo «Contatti» non invia nulla da solo: prepara un messaggio che puoi rivedere e spedire con WhatsApp o con la Tua app di posta. Trattiamo quindi i dati che scegli di comunicarci: nome, recapiti, interessi, periodo, numero di cavalieri, se verrai con il Tuo cavallo e quanto ci racconti di Te e della Tua esperienza in sella.</p><p><strong>Partecipazione alle attività.</strong> Per organizzare le sessioni con i cavalli possono servire alcuni dati aggiuntivi, ad esempio il livello di esperienza a cavallo e, se porti il Tuo cavallo, le informazioni necessarie a ospitarlo presso la struttura di riferimento.</p>"
+      },
+      {
+        "id": "finalita-basi-giuridiche",
+        "title": "Finalità e basi giuridiche",
+        "html": "<ul><li><strong>Sicurezza del sito</strong> (indirizzi IP registrati da GitHub): legittimo interesse a proteggere il sito da abusi e attacchi informatici (art. 6, par. 1, lett. f GDPR).</li><li><strong>Risposta alle richieste e organizzazione delle attività</strong>: esecuzione di misure precontrattuali adottate su Tua richiesta e del contratto (art. 6, par. 1, lett. b GDPR).</li><li><strong>Obblighi di legge</strong>, ad esempio fiscali e contabili: obbligo legale (art. 6, par. 1, lett. c GDPR).</li></ul><p>Non svolgiamo attività di profilazione né di marketing, e non cediamo i dati a terzi per loro finalità.</p>"
+      },
+      {
+        "id": "conferimento",
+        "title": "Il conferimento dei dati è obbligatorio?",
+        "html": "<p>Fornire i dati è facoltativo, ma senza di essi non è possibile risponderti né organizzare la Tua esperienza.</p>"
+      },
+      {
+        "id": "conservazione",
+        "title": "Per quanto tempo conserviamo i dati",
+        "html": "<ul><li><strong>Richieste di informazioni</strong>: per il tempo necessario a rispondere e, se non segue una prenotazione, non oltre 12 mesi.</li><li><strong>Attività e prenotazioni</strong>: per la durata del rapporto; i documenti fiscali e contabili per 10 anni, come previsto dalla legge.</li><li><strong>Indirizzi IP registrati da GitHub</strong>: per i tempi indicati nell’<a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\" target=\"_blank\" rel=\"noopener\">informativa privacy di GitHub</a>.</li></ul><p>Trascorsi questi periodi, i dati vengono cancellati o resi anonimi.</p>"
+      },
+      {
+        "id": "destinatari",
+        "title": "A chi possono essere comunicati i dati",
+        "html": "<p>I dati non vengono diffusi. Possono riceverli, solo nella misura necessaria:</p><ul><li>i fornitori di servizi tecnici: GitHub (hosting del sito), il fornitore di posta elettronica del titolare e WhatsApp (gruppo Meta), se scegli di scriverci con questa app;</li><li>il centro ippico di riferimento, per organizzare le sessioni con i cavalli e l’eventuale ospitalità del Tuo cavallo;</li><li>i professionisti che assistono il titolare, ad esempio il commercialista;</li><li>le autorità pubbliche, quando lo prevede la legge.</li></ul><p>Se scegli di soggiornare al B&B A spasso con Daisy · Chianti Home, i dati del soggiorno sono trattati secondo l’informativa privacy pubblicata sul sito del B&B.</p>"
+      },
+      {
+        "id": "trasferimenti-extra-ue",
+        "title": "Trasferimenti fuori dall’Unione europea",
+        "html": "<p>Alcuni fornitori, come GitHub (gruppo Microsoft) e WhatsApp (gruppo Meta), fanno parte di gruppi con sede negli Stati Uniti e possono trattare i dati anche fuori dall’Unione europea. In questi casi il trasferimento si basa sull’EU-US Data Privacy Framework, riconosciuto adeguato dalla Commissione europea con decisione del 10 luglio 2023 (art. 45 GDPR), oppure sulle clausole contrattuali tipo approvate dalla Commissione (art. 46 GDPR).</p>"
+      },
+      {
+        "id": "cookie",
+        "title": "Cookie",
+        "html": "<p>Il sito <strong>non usa cookie</strong>, né propri né di terze parti, e non salva informazioni nel browser (ad esempio con il <em>localStorage</em>). Non usa strumenti statistici o di profilazione e non incorpora contenuti esterni come mappe, video o widget dei social network. Per questo non compare alcun banner per il consenso.</p><p>I link verso altri siti, come quello del B&B, WhatsApp o la Tua app di posta, si aprono solo se li scegli Tu: da quel momento valgono le informative dei rispettivi servizi.</p>"
+      },
+      {
+        "id": "diritti",
+        "title": "I Tuoi diritti",
+        "html": "<p>Ai sensi degli articoli da 15 a 22 del GDPR, hai il diritto di:</p><ul><li><strong>accedere</strong> ai Tuoi dati e riceverne una copia;</li><li>ottenere la <strong>rettifica</strong> dei dati inesatti o incompleti;</li><li>ottenere la <strong>cancellazione</strong> dei dati, salvo quelli che devono essere conservati per legge;</li><li>ottenere la <strong>limitazione</strong> del trattamento;</li><li>ricevere i dati che hai fornito in un formato strutturato e di uso comune (<strong>portabilità</strong>);</li><li><strong>opporTi</strong> ai trattamenti basati sul legittimo interesse.</li></ul><p>Per esercitarli basta scrivere a <a href=\"mailto:%%email%%\">%%email%%</a>: riceverai risposta senza ingiustificato ritardo e, di norma, entro un mese.</p>"
+      },
+      {
+        "id": "reclamo",
+        "title": "Reclamo all’autorità di controllo",
+        "html": "<p>Se ritieni che il trattamento dei Tuoi dati violi il GDPR, puoi proporre reclamo al Garante per la protezione dei dati personali (<a href=\"https://www.garanteprivacy.it\" target=\"_blank\" rel=\"noopener\">www.garanteprivacy.it</a>) o all’autorità di controllo del Paese dell’Unione europea in cui vivi o lavori.</p>"
+      },
+      {
+        "id": "modifiche",
+        "title": "Modifiche a questa informativa",
+        "html": "<p>Questa informativa può essere aggiornata, ad esempio se cambiano i servizi usati dal sito o la normativa. La versione valida è sempre quella pubblicata su questa pagina. Ultimo aggiornamento: %%updated%%.</p>"
+      }
+    ]
+  }
+}
