@@ -7,6 +7,7 @@
     "hero": true,
     "alt_it": "Cavallo sauro dalla criniera chiara mossa dal vento, contro un cielo azzurro e velato",
     "alt_en": "Chestnut horse with a pale mane stirred by the wind, against a soft blue sky",
+    "alt_de": "Fuchsfarbenes Pferd mit heller, vom Wind bewegter Mähne vor einem zartblauen Himmel",
     "width_1600": 1600,
     "height_1600": 1067,
     "dominant": "#adb0aa"
@@ -18,6 +19,7 @@
     "unsplash_page_url": "",
     "alt_it": "Ritratto di un cavallo sauro con lista bianca, nella luce calda della sera",
     "alt_en": "Portrait of a chestnut horse with a white blaze, in warm evening light",
+    "alt_de": "Porträt eines Fuchses mit weißer Blesse im warmen Abendlicht",
     "width_1600": 1600,
     "height_1600": 2400,
     "dominant": "#664f35"
@@ -29,6 +31,7 @@
     "unsplash_page_url": "",
     "alt_it": "Cavallo baio con briglia elegante, ritratto su fondo nero",
     "alt_en": "Bay horse in an elegant bridle, portrait on a black background",
+    "alt_de": "Brauner mit eleganter Trense, Porträt vor schwarzem Hintergrund",
     "width_1600": 1600,
     "height_1600": 2400,
     "dominant": "#251911"
@@ -40,6 +43,7 @@
     "unsplash_page_url": "",
     "alt_it": "Cavallo palomino che bruca tranquillo in un prato",
     "alt_en": "Palomino horse grazing peacefully in a meadow",
+    "alt_de": "Palomino, der ruhig auf einer Wiese grast",
     "width_1600": 1600,
     "height_1600": 2399,
     "dominant": "#a29884",
@@ -52,6 +56,7 @@
     "unsplash_page_url": "",
     "alt_it": "Cavallo grigio che galoppa libero sul prato, davanti a una siepe scura",
     "alt_en": "Grey horse cantering freely across the grass, in front of a dark hedge",
+    "alt_de": "Schimmel im freien Galopp über die Wiese vor einer dunklen Hecke",
     "width_1600": 1600,
     "height_1600": 1067,
     "dominant": "#343c3a"
@@ -63,6 +68,7 @@
     "unsplash_page_url": "",
     "alt_it": "Tre cavalli bai si affacciano curiosi dalla recinzione del paddock",
     "alt_en": "Three bay horses peering curiously over the paddock fence",
+    "alt_de": "Drei Braune schauen neugierig über den Koppelzaun",
     "width_1600": 1600,
     "height_1600": 1200,
     "dominant": "#89817b",
@@ -77,7 +83,8 @@
     "height_1600": 1066,
     "dominant": "#807557",
     "alt_it": "Alba dorata sulle colline toscane, con un casale tra i cipressi",
-    "alt_en": "Golden sunrise over the Tuscan hills, with a farmhouse among cypresses"
+    "alt_en": "Golden sunrise over the Tuscan hills, with a farmhouse among cypresses",
+    "alt_de": "Goldener Sonnenaufgang über den toskanischen Hügeln, ein Bauernhaus zwischen Zypressen"
   },
   {
     "slug": "vineyard",
@@ -88,7 +95,8 @@
     "height_1600": 1067,
     "dominant": "#38573c",
     "alt_it": "Grappoli d'uva verde tra le foglie della vite",
-    "alt_en": "Bunches of green grapes among vine leaves"
+    "alt_en": "Bunches of green grapes among vine leaves",
+    "alt_de": "Grüne Weintrauben zwischen Rebblättern"
   },
   {
     "slug": "cypress-road",
@@ -99,7 +107,8 @@
     "height_1600": 1067,
     "dominant": "#9a8e6e",
     "alt_it": "Strada bianca fiancheggiata da cipressi tra campi dorati in Toscana",
-    "alt_en": "Gravel road lined with cypresses winding through golden Tuscan fields"
+    "alt_en": "Gravel road lined with cypresses winding through golden Tuscan fields",
+    "alt_de": "Von Zypressen gesäumte Schotterstraße durch goldene Felder der Toskana"
   },
   {
     "slug": "bike",
@@ -111,7 +120,8 @@
     "dominant": "#48573a",
     "focus": "40% 60%",
     "alt_it": "Mountain bike appoggiata a un olivo nell'erba alta di un uliveto",
-    "alt_en": "Mountain bike leaning against an olive tree in a grassy olive grove"
+    "alt_en": "Mountain bike leaning against an olive tree in a grassy olive grove",
+    "alt_de": "Mountainbike an einem Olivenbaum in einem grasbewachsenen Olivenhain"
   },
   {
     "slug": "pool",
@@ -122,7 +132,8 @@
     "height_1600": 1067,
     "dominant": "#b4d5c6",
     "alt_it": "Acqua turchese di una piscina all'aperto con bordo in pietra chiara",
-    "alt_en": "Turquoise water of an outdoor pool with a pale stone edge"
+    "alt_en": "Turquoise water of an outdoor pool with a pale stone edge",
+    "alt_de": "Türkisfarbenes Wasser eines Außenpools mit hellem Steinrand"
   },
   {
     "slug": "florence",
@@ -134,7 +145,8 @@
     "dominant": "#b29582",
     "focus": "50% 82%",
     "alt_it": "Firenze al tramonto: l'Arno e Ponte Vecchio",
-    "alt_en": "Florence at sunset: the Arno and the Ponte Vecchio"
+    "alt_en": "Florence at sunset: the Arno and the Ponte Vecchio",
+    "alt_de": "Florenz bei Sonnenuntergang: der Arno und der Ponte Vecchio"
   },
   {
     "slug": "olives",
@@ -145,7 +157,8 @@
     "height_1600": 1067,
     "dominant": "#2d261f",
     "alt_it": "Ramo d'olivo carico di olive verdi",
-    "alt_en": "Olive branch with green olives"
+    "alt_en": "Olive branch with green olives",
+    "alt_de": "Olivenzweig mit grünen Oliven"
   },
   {
     "slug": "hills",
@@ -156,6 +169,7 @@
     "height_1600": 1066,
     "dominant": "#728879",
     "alt_it": "Colline del Chianti presso Castellina: vigneti, cipressi e un casale in pietra",
-    "alt_en": "Chianti hills near Castellina: vineyards, cypresses and a stone farmhouse"
+    "alt_en": "Chianti hills near Castellina: vineyards, cypresses and a stone farmhouse",
+    "alt_de": "Chianti-Hügel bei Castellina: Weinberge, Zypressen und ein Bauernhaus aus Stein"
   }
 ]

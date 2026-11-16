@@ -2,7 +2,7 @@
 
 **A cavallo in viaggio verso l'armonia.**
 
-Sito web bilingue (italiano / inglese) di *Horses of Florence*: un progetto nel cuore del Chianti fiorentino, alle porte di Firenze, in cui il cavallo non è solo compagno ma guida, un ponte tra la terra e l'interiorità.
+Sito web in italiano, inglese e tedesco di *Horses of Florence*: un progetto nel cuore del Chianti fiorentino, alle porte di Firenze, in cui il cavallo non è solo compagno ma guida, un ponte tra la terra e l'interiorità.
 
 ---
 
@@ -33,7 +33,7 @@ Obiettivi del sito:
 - raccontare la filosofia e l'approccio di Horses of Florence;
 - presentare l'offerta (sessioni con i cavalli, soggiorno, esperienze sul territorio);
 - permettere a chi visita di mettersi in contatto per ricevere informazioni;
-- essere pienamente fruibile in **italiano e inglese**.
+- essere pienamente fruibile in **italiano, inglese e tedesco**.
 
 ## Cosa offre Horses of Florence
 
@@ -70,7 +70,7 @@ Nota di footer / informazioni pratiche: *richiesta la conoscenza delle tre andat
 ## Lingue e contenuti
 
 - **Italiano**: testo completo disponibile e approvato come base del sito.
-- **Inglese**: traduzione **in corso** (da completare prima della pubblicazione).
+- **Inglese** e **tedesco**: traduzioni fedeli dei testi italiani (il tedesco usa il «Du» maiuscolo, come il «Tu» dell'italiano).
 
 Indicazioni per la gestione dei testi:
 
@@ -102,7 +102,7 @@ Lo stesso approccio del sito del B&B *A spasso con Daisy*: sito vetrina statico,
 | Ambito | Scelta |
 |---|---|
 | Framework / generatore | HTML statico generato con Python + Jinja2 (`build.py`) |
-| Gestione i18n (IT/EN) | Un file di testi per lingua: `src/content/it.json`, `src/content/en.json` |
+| Lingue (IT/EN/DE) | Un file di testi per lingua: `src/content/it.json`, `en.json`, `de.json` |
 | Stili | CSS scritto a mano (`assets/css/style.css`), nessun framework |
 | Font | Montserrat (titoli, simile alla scritta del logo), Jost (testo, come il B&B), Cormorant Garamond corsivo (citazioni). Ospitati nel sito, licenza OFL |
 | Hosting / deploy | GitHub Pages tramite GitHub Actions (`.github/workflows/pages.yml`) |
@@ -114,10 +114,10 @@ Lo stesso approccio del sito del B&B *A spasso con Daisy*: sito vetrina statico,
 
 ```text
 .
-├── index.html, privacy/, en/          pagine generate (non modificarle a mano)
+├── index.html, privacy/, en/, de/     pagine generate (non modificarle a mano)
 ├── src/
-│   ├── content/it.json, en.json       testi delle pagine (solo i testi forniti, e la loro traduzione)
-│   ├── content/legal/it.json, en.json informativa privacy e cookie
+│   ├── content/it.json, en.json, de.json   testi delle pagine (solo i testi forniti, e la loro traduzione)
+│   ├── content/legal/*.json           informativa privacy e cookie (IT/EN/DE)
 │   ├── site.json                      contatti, link, titolare, opzioni
 │   └── base.html, home.html, legal.html, macros.html   template
 ├── assets/
@@ -191,8 +191,8 @@ Poi apri http://localhost:8000.
 
 ### Come modificare i testi
 
-1. Testi delle pagine: `src/content/it.json` ed `en.json` (stessa struttura).
-2. Privacy e cookie: `src/content/legal/it.json` ed `en.json` (testo tecnico obbligatorio, da far rivedere).
+1. Testi delle pagine: `src/content/it.json`, `en.json` e `de.json` (stessa struttura).
+2. Privacy e cookie: `src/content/legal/it.json`, `en.json` e `de.json` (testo tecnico obbligatorio, da far rivedere).
 3. Email, WhatsApp, telefono, Instagram, link all'abbigliamento e dati del titolare: `src/site.json`.
 4. Rigenera le pagine con `python3 build.py`.
 
@@ -222,7 +222,7 @@ Tutti i percorsi sono relativi, quindi il sito funziona anche con un dominio pro
 - [x] SEO bilingue (`hreflang`, meta tag, dati strutturati, immagine per i social)
 - [x] Accessibilità e prestazioni di base (mobile first, foto WebP, font locali)
 - [x] Informativa privacy e cookie
-- [ ] Rileggere la traduzione inglese
+- [ ] Rileggere le traduzioni inglese e tedesca
 - [ ] Email, WhatsApp/telefono e dati del titolare in `src/site.json`
 - [ ] Foto vere dei cavalli, delle sessioni e della struttura al posto di quelle di Unsplash
 - [ ] Link alla linea di abbigliamento ("Vesti la nostra filosofia") in `apparel_url`

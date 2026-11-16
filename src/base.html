@@ -27,7 +27,7 @@
 <meta property="og:url" content="{{ page_url }}">
 <meta property="og:locale" content="{{ t.locale }}">
 {% for l in site.languages if l.code != lang.code %}
-<meta property="og:locale:alternate" content="{{ 'en_GB' if l.code == 'en' else 'it_IT' }}">
+<meta property="og:locale:alternate" content="{{ {'it': 'it_IT', 'en': 'en_GB', 'de': 'de_DE'}[l.code] }}">
 {% endfor %}
 <meta property="og:image" content="{{ site.base_url }}assets/img/brand/og-image.jpg">
 <meta property="og:image:width" content="1200">

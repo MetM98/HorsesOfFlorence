@@ -1,0 +1,97 @@
+{
+  "locale": "de_DE",
+  "meta": {
+    "title": "Horses of Florence · Zu Pferd auf der Reise zur Harmonie",
+    "description": "Im Herzen des Florentiner Chianti, wo die Luft nach Geschichte duftet und das Licht die für dieses Land typischen Hügel streichelt, entsteht Horses of Florence: Hier ist das Pferd nicht nur Gefährte, sondern Wegweiser.",
+    "og_image_alt": "Horses of Florence. Zu Pferd auf der Reise zur Harmonie."
+  },
+  "ui": {
+    "skip": "Zum Inhalt springen",
+    "menu_open": "Menü öffnen",
+    "menu_close": "Menü schließen",
+    "lang_label": "Sprache",
+    "new_tab": "öffnet in einem neuen Tab",
+    "todo": "wird ergänzt",
+    "home_label": "Horses of Florence, zurück zum Anfang"
+  },
+  "brand": "Horses of Florence",
+  "tagline": "Zu Pferd auf der Reise zur Harmonie.",
+  "nav": [
+    { "href": "#home", "label": "Home" },
+    { "href": "#noi-per-voi", "label": "Wir für Euch" },
+    { "href": "#esperienze", "label": "Wähle Deine Erlebnisse" },
+    { "href": "#contatti", "label": "Kontakt" }
+  ],
+  "apparel": "Trage unsere Philosophie",
+  "home": {
+    "intro": "Im Herzen des Florentiner Chianti, wo die Luft nach Geschichte duftet und das Licht die für dieses Land typischen Hügel streichelt, entsteht Horses of Florence: Hier ist das Pferd nicht nur Gefährte, sondern Wegweiser.",
+    "bridge": {
+      "lead": "Eine Brücke",
+      "pairs": [
+        ["zwischen der Erde", "und dem Inneren,"],
+        ["zwischen der Bewegung", "und der Stille,"],
+        ["zwischen dem, was wir sind,", "und dem, was wir werden können."]
+      ]
+    },
+    "gates": "Hier, vor den Toren von Florenz, wird die Begegnung mit dem Pferd zu einer Erfahrung, die verwandelt.",
+    "moments": {
+      "items": ["Jeder Schritt,", "jeder Blick,", "jeder geteilte Atemzug"],
+      "rest": "öffnet einen neuen Raum: aus Zuhören, aus Präsenz, aus Wahrheit."
+    },
+    "nature": [
+      "Pferde leben eingebettet in die Natur, sie bringen ihr Wesen zum Ausdruck, und gerade deshalb erkennen sie auch das unsere.",
+      "Sie lesen uns ohne Worte, nehmen uns ohne Urteil an und führen uns zu einem Gleichgewicht zurück, das wir oft vergessen."
+    ],
+    "centre": {
+      "lead": "Horses of Florence ist eine Einladung",
+      "verbs": ["langsamer zu werden,", "zu spüren,", "die eigene Mitte wiederzufinden."],
+      "body": [
+        "Es ist eine Reise, die die Schönheit der Florentiner Landschaft mit der Tiefe der Beziehung zum Pferd verbindet.",
+        "Eine Reise, die von Echtheit erzählt, von Harmonie, von der Rückkehr zu sich selbst, für den Menschen ebenso wie für das Pferd."
+      ]
+    },
+    "remember": {
+      "first": "Hierher kommt man nicht nur, um zu lernen: Man kommt, um sich zu erinnern.",
+      "clauses": ["Sich zu erinnern, wer wir sind,", "was uns guttut,", "was uns lebendig macht."]
+    }
+  },
+  "for_you": {
+    "title": "Wir für Euch",
+    "text": "Zwischen den für unser Land typischen Weinbergen und Olivenhainen empfangen wir Dich einzeln oder in kleinen Gruppen von zwei, höchstens drei Reitern, damit der Reitlehrer auch auf die kleinsten Details achten kann, mit der Unterstützung unserer Pferde oder Deines eigenen Pferdes, das wir gerne in unserem Partnerbetrieb unterbringen: einem Reitzentrum, das dem Italienischen Pferdesportverband angeschlossen ist, mit der Unterstützung von qualifiziertem Personal.",
+    "lead": "Gemeinsam praktizieren wir Channeling mit den Pferden, vom Boden aus und im Sattel:",
+    "items": [
+      "Um die Beziehung zum eigenen vierbeinigen Freund zu verbessern, ob Gefährte im Leben oder bei der Arbeit;",
+      "Mit Hilfe der Pferde, um emotionale Blockaden zu überwinden, die uns manchmal belasten, um sich selbst wiederzufinden oder einfach um sich zu regenerieren und kostbare Energie zurückzugewinnen, die uns das hektische Leben, das wir führen, manchmal raubt."
+    ],
+    "closing": "Gemeinsam mit Dir planen wir Deinen Urlaub bei uns oder Deine freie Zeit, auf der Reise zu Dir selbst."
+  },
+  "experiences": {
+    "title": "Wähle Deine Erlebnisse",
+    "items": [
+      { "photos": ["florence", "cypress-road"], "text": "Nach der Zeit bei den Pferden kannst Du befestigte Dörfer, kleine Orte und Burgen besuchen, reich an Kultur und jahrtausendealten Traditionen, und die weltberühmten Städte Siena und Florenz kennenlernen." },
+      { "photos": ["pool", "hills"], "text": "Wenn Du Lust hast, besuchst Du bedeutende Reiseziele, die schon in einer halben Stunde erreichbar sind. Du kannst Dich am Pool entspannen, Padel spielen oder in der Nähe des B&B Sportfischen gehen." },
+      { "photos": ["bike", "hills-golden"], "text": "Wenn Du Lust hast, erkundest Du die umliegende Landschaft mit dem Fahrrad (es kann gemietet werden) oder zu Fuß entlang des Flusses Pesa, vom B&B bis nach Cerbaia im Val di Pesa, auf einem eigenen Radweg." },
+      { "photos": ["vineyard", "olives"], "text": "Außerdem kannst Du ausgezeichnete regionale Olivenöle und Weine bei schönen Erzeugern verkosten, wo Tradition und Innovation Spitzenprodukte hervorbringen." }
+    ],
+    "closing": "So machst Du Dich auf die Entdeckung Deiner selbst, mit der Unterstützung unserer wunderbaren Tiere oder mit Deinem eigenen Pferd, damit jeder gemeinsame Schritt in unserem Land eine Rückkehr zu dem ist, was Ihr wirklich seid."
+  },
+  "contact": {
+    "title": "Kontakt",
+    "invite": "Warte nicht bis morgen, um für Dich zu sorgen, für Euch.",
+    "cta": "Frag uns noch heute nach Informationen.",
+    "channels": {
+      "whatsapp": "WhatsApp",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "instagram": "Instagram"
+    }
+  },
+  "requirements": [
+    "Kenntnis der drei Gangarten erforderlich",
+    "Geeignete Reitkleidung tragen"
+  ],
+  "footer": {
+    "rights": "Alle Rechte vorbehalten.",
+    "photos": "Fotos"
+  }
+}
