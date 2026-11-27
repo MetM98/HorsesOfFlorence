@@ -88,6 +88,7 @@
         <img class="hero__mark" src="{{ root }}{{ asset('assets/img/brand/mark-navy.svg') }}" width="103" height="74" alt="">
         <h1 id="hero-title">{{ wordmark('hero__name', stack=True) }}</h1>
         <p class="hero__tagline">{{ t.tagline }}</p>
+        {% if site.under_construction %}<p class="hero__notice">{{ t.construction }}</p>{% endif %}
       </div>
 
       <p class="hero__intro">
@@ -148,7 +149,7 @@
   <section class="nature" data-tone="light">
     <div class="wrap nature__grid">
       <figure class="arch nature__figure" data-view>
-        <div class="arch__frame">{{ photo('grazing', '(min-width: 900px) 40vw, 86vw', 'arch__img') }}</div>
+        <div class="arch__frame">{{ photo('hill-horse', '(min-width: 900px) 40vw, 86vw', 'arch__img') }}</div>
       </figure>
       <div class="nature__text">
         <svg class="olive" viewBox="0 0 520 300" data-view aria-hidden="true" focusable="false">
@@ -203,7 +204,7 @@
       </header>
       <div class="foryou__grid">
         <figure class="arch foryou__figure" data-view>
-          <div class="arch__frame">{{ photo('herd', '(min-width: 900px) 38vw, 86vw', 'arch__img') }}</div>
+          <div class="arch__frame">{{ photo('rider', '(min-width: 900px) 38vw, 86vw', 'arch__img') }}</div>
         </figure>
         <div class="foryou__text">
           <p class="dropcap" data-view>{{ fy.text }}</p>
@@ -279,9 +280,18 @@
         <li>
           <a href="https://wa.me/{{ site.whatsapp }}" target="_blank" rel="noopener">
             <span class="channels__name">{{ c.channels.whatsapp }}</span>
-            <span class="channels__value">{% if site.whatsapp %}+{{ site.whatsapp }}{% else %}<mark class="todo">[{{ t.ui.todo }}]</mark>{% endif %}</span>
+            <span class="channels__value">{% if site.whatsapp %}{{ site.mobile_display or ('+' ~ site.whatsapp) }}{% else %}<mark class="todo">[{{ t.ui.todo }}]</mark>{% endif %}</span>
+            <span class="sr-only"> ({{ t.ui.new_tab }})</span>
           </a>
         </li>
+        {% if site.sms %}
+        <li>
+          <a href="sms:+{{ site.sms }}">
+            <span class="channels__name">{{ c.channels.sms }}</span>
+            <span class="channels__value">{{ site.mobile_display or ('+' ~ site.sms) }}</span>
+          </a>
+        </li>
+        {% endif %}
         <li>
           <a href="mailto:{{ site.email }}">
             <span class="channels__name">{{ c.channels.email }}</span>
@@ -295,6 +305,7 @@
         <li><a href="https://www.instagram.com/{{ site.instagram }}/" target="_blank" rel="noopener"><span class="channels__name">{{ c.channels.instagram }}</span><span class="channels__value">@{{ site.instagram }}</span></a></li>
         {% endif %}
       </ul>
+      {% if site.sms or site.whatsapp %}<p class="channels__note" data-view>{{ c.mobile_note }}</p>{% endif %}
     </div>
   </section>
 

@@ -16,6 +16,7 @@
   },
   "brand": "Horses of Florence",
   "tagline": "A cavallo in viaggio verso l’armonia.",
+  "construction": "Sito web in fase di costruzione",
   "nav": [
     { "href": "#home", "label": "Home" },
     { "href": "#noi-per-voi", "label": "Noi per voi" },
@@ -79,8 +80,10 @@
     "title": "Contatti",
     "invite": "Non aspettare domani per prenderti cura di Te, di Voi.",
     "cta": "Chiedici informazioni oggi stesso.",
+    "mobile_note": "Cellulare: solo SMS e chiamate WhatsApp.",
     "channels": {
       "whatsapp": "WhatsApp",
+      "sms": "SMS",
       "email": "Email",
       "phone": "Telefono",
       "instagram": "Instagram"

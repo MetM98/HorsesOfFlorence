@@ -37,19 +37,6 @@
     "dominant": "#251911"
   },
   {
-    "slug": "grazing",
-    "image_id": "photo-1534773728080-33d31da27ae5",
-    "photographer": "",
-    "unsplash_page_url": "",
-    "alt_it": "Cavallo palomino che bruca tranquillo in un prato",
-    "alt_en": "Palomino horse grazing peacefully in a meadow",
-    "alt_de": "Palomino, der ruhig auf einer Wiese grast",
-    "width_1600": 1600,
-    "height_1600": 2399,
-    "dominant": "#a29884",
-    "focus": "50% 62%"
-  },
-  {
     "slug": "white-horse",
     "image_id": "photo-1553284965-83fd3e82fa5a",
     "photographer": "",
@@ -62,17 +49,30 @@
     "dominant": "#343c3a"
   },
   {
-    "slug": "herd",
-    "image_id": "photo-1452378174528-3090a4bba7b2",
+    "slug": "hill-horse",
+    "image_id": "photo-1450052590821-8bf91254a353",
     "photographer": "",
     "unsplash_page_url": "",
-    "alt_it": "Tre cavalli bai si affacciano curiosi dalla recinzione del paddock",
-    "alt_en": "Three bay horses peering curiously over the paddock fence",
-    "alt_de": "Drei Braune schauen neugierig über den Koppelzaun",
+    "focus": "66% 40%",
+    "alt_it": "Cavallo sauro su un prato in collina, nella luce calda del mattino",
+    "alt_en": "Chestnut horse on a hillside meadow, in warm morning light",
+    "alt_de": "Fuchs auf einer Hügelwiese im warmen Morgenlicht",
     "width_1600": 1600,
-    "height_1600": 1200,
-    "dominant": "#89817b",
-    "focus": "50% 40%"
+    "height_1600": 900,
+    "dominant": "#9ea49e"
+  },
+  {
+    "slug": "rider",
+    "image_id": "photo-1594768816441-1dd241ffaa67",
+    "photographer": "",
+    "unsplash_page_url": "",
+    "focus": "66% 50%",
+    "alt_it": "Amazzone in sella a un cavallo sauro, al passo in un campo da dressage",
+    "alt_en": "Rider on a chestnut horse, walking in a dressage arena",
+    "alt_de": "Reiterin auf einem Fuchs im Schritt auf einem Dressurplatz",
+    "width_1600": 1600,
+    "height_1600": 1067,
+    "dominant": "#a29a8c"
   },
   {
     "slug": "hills-golden",

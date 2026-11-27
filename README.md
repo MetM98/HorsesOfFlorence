@@ -200,8 +200,10 @@ Poi apri http://localhost:8000.
 | Campo di `src/site.json` | Note |
 |---|---|
 | `email` | Indirizzo per i contatti e per la privacy. Finché manca, il sito mostra un segnaposto giallo «[da completare]». |
-| `whatsapp` | Solo cifre, con prefisso (es. `393331234567`). Finché manca, compare il segnaposto. |
-| `phone`, `instagram` | Facoltativi: compaiono nei contatti solo se compilati. |
+| `whatsapp`, `sms` | Solo cifre, con prefisso (es. `393339218552`). Il cellulare è solo per SMS e chiamate WhatsApp, quindi non c'è un link per le chiamate normali. |
+| `mobile_display` | Il numero come appare sul sito (es. `+39 333 921 8552`). |
+| `under_construction` | `true` mostra «Sito web in fase di costruzione» sotto il titolo e nel piè di pagina. Mettere `false` quando il sito è definitivo. |
+| `phone`, `instagram` | Facoltativi: compaiono nei contatti solo se compilati. `phone` va usato solo per un numero che accetta chiamate normali. |
 | `apparel_url` | Link a «Vesti la nostra filosofia». Finché è vuoto, il collegamento porta ai contatti. |
 | `owner` | Titolare del trattamento per l'informativa privacy. |
 | `noindex` | `true` tiene l'anteprima fuori da Google. Mettere `false` alla pubblicazione definitiva. |
@@ -224,11 +226,12 @@ Tutti i percorsi sono relativi, quindi il sito funziona anche con un dominio pro
 - [x] Accessibilità e prestazioni di base (mobile first, foto WebP, font locali)
 - [x] Informativa privacy e cookie
 - [ ] Rileggere le traduzioni inglese e tedesca
-- [ ] Email, WhatsApp/telefono e dati del titolare in `src/site.json`
+- [x] Email e cellulare (SMS e WhatsApp)
+- [ ] Dati del titolare in `src/site.json` per l'informativa privacy
 - [ ] Foto vere dei cavalli, delle sessioni e della struttura al posto di quelle di Unsplash
 - [ ] Link alla linea di abbigliamento ("Vesti la nostra filosofia") in `apparel_url`
 - [ ] Logo vettoriale originale, se disponibile
-- [ ] Pubblicazione: `noindex` → `false`, GitHub Pages attivo
+- [ ] Pubblicazione definitiva: `under_construction` e `noindex` → `false`
 
 ## Licenza
 
