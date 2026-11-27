@@ -207,7 +207,20 @@ mark.todo { background: #fff2b3; color: #5a4500; padding: 0 .35em; font-size: .7
 .hero__mark { width: auto; height: clamp(46px, 7svh, 78px); margin: 0 auto 2.6svh; }
 .hero__title h1 { font-weight: 300; line-height: 1; color: var(--navy); }
 .hero__name { font-size: clamp(2rem, .9rem + 4.4vw, 5.6rem); font-weight: 300; letter-spacing: .085em; }
-.hero__tagline { margin-top: 1.6svh; font-family: var(--serif); font-style: italic; font-weight: 400; font-size: clamp(1.15rem, .95rem + .9vw, 1.8rem); color: var(--navy-2); }
+.hero__tagline { margin-top: 1.6svh; font-family: var(--serif); font-style: italic; font-weight: 400; font-size: clamp(1.15rem, .95rem + .9vw, 1.8rem); line-height: 1.3; color: var(--navy-2); }
+.hero__notice {
+  display: inline-flex; align-items: center; gap: 14px; margin-top: 2svh; line-height: 1.4;
+  font-family: var(--caps); font-variant-caps: small-caps; font-synthesis: small-caps; letter-spacing: .14em;
+  font-size: clamp(.9rem, .8rem + .3vw, 1.05rem); color: var(--ink-soft);
+}
+.hero__notice::before, .hero__notice::after { content: ""; width: 26px; height: 1px; background: currentColor; opacity: .6; }
+/* schermi bassi: l'arco scende un poco per lasciare spazio al titolo */
+@media (min-width: 761px) and (max-height: 960px) {
+  .hero { --t0: 48; }
+  .hero__title { top: calc(var(--header-h) + 1.2svh); }
+  .hero__mark { height: clamp(40px, 6svh, 70px); margin-bottom: 2svh; }
+  .hero__name { font-size: clamp(2rem, .9rem + 4.4vw, min(5.6rem, 8.4svh)); }
+}
 .hero__intro {
   position: absolute; left: 50%; top: 15%; width: min(1020px, 100% - 2 * var(--gutter)); transform: translateX(-50%);
   text-align: center; font-family: var(--serif); font-weight: 400; font-size: clamp(1.4rem, .75rem + 2.3vw, 3.05rem); line-height: 1.27; color: var(--navy);
@@ -435,6 +448,7 @@ mark.todo { background: #fff2b3; color: #5a4500; padding: 0 .35em; font-size: .7
 .channels a:hover::after, .channels a:focus-visible::after { transform: scaleX(1); }
 .channels__name { font-family: var(--caps); font-variant-caps: small-caps; font-synthesis: small-caps; letter-spacing: .1em; font-size: 1.3rem; }
 .channels__value { font-size: 1.05rem; color: var(--silver-light); }
+.channels__note { margin-top: 22px; font-family: var(--serif); font-style: italic; font-size: clamp(1.05rem, 1rem + .3vw, 1.25rem); color: var(--silver); opacity: clamp(0, calc(var(--e, 1) * 1.5 - .5), 1); }
 
 /* ==========================================================================
    VESTI LA NOSTRA FILOSOFIA
@@ -464,6 +478,7 @@ mark.todo { background: #fff2b3; color: #5a4500; padding: 0 .35em; font-size: .7
 .site-footer__nav a { text-decoration: none; font-size: .78rem; letter-spacing: .2em; text-transform: uppercase; }
 .site-footer__nav a:hover { color: var(--ivory); }
 .langs--footer a { color: var(--ivory); }
+.site-footer__notice { font-family: var(--caps); font-variant-caps: small-caps; font-synthesis: small-caps; letter-spacing: .14em; font-size: 1rem; color: var(--silver); }
 .site-footer__meta { width: 100%; display: grid; gap: 6px; padding-top: 26px; border-top: 1px solid var(--hair-light); font-size: .78rem; color: rgba(247, 243, 235, .5); }
 .site-footer__meta a:hover { color: var(--ivory); }
 @media (max-width: 560px) { .site-footer__req li + li::before { display: none; } .site-footer__req { flex-direction: column; } }
@@ -500,11 +515,19 @@ mark.todo { background: #fff2b3; color: #5a4500; padding: 0 .35em; font-size: .7
 @media (max-width: 760px) {
   :root { --header-h: 64px; }
   .hero { --w0: 70vw; --t0: 46; --b0: 4; }
+  .hero__notice { margin-top: 1.4svh; gap: 10px; letter-spacing: .1em; white-space: nowrap; font-size: .84rem; }
+  .hero__notice::before, .hero__notice::after { width: 16px; }
   .hero__hills { height: 44%; }
   .hero__sun { left: calc(58% + var(--p, 0) * 18%); top: calc(70% - var(--p, 0) * 20%); }
   .hero__intro { top: 13%; }
   .hero__name { font-size: 11.5vw; line-height: 1.04; }
   .hero__name .wordmark__br { display: inline; }
+}
+/* telefoni bassi: l'arco scende sotto il titolo */
+@media (max-width: 760px) and (max-height: 720px) {
+  .hero { --t0: 52; --w0: 62vw; }
+  .hero__mark { height: 40px; margin-bottom: 1.4svh; }
+  .hero__name { font-size: 10.5vw; }
 }
 
 /* ==========================================================================
