@@ -133,7 +133,7 @@
     <div class="scene__sticky moments__stage">
       <ul class="moments__panels">
         {% for item in h.moments['items'] %}
-        {% set slug = ['white-horse', 'gaze', 'bay'][loop.index0] %}
+        {% set slug = ['buckskin', 'gaze', 'bay'][loop.index0] %}
         <li class="moments__item moments__item--{{ loop.index }}" style="--i:{{ loop.index0 }}">
           <div class="moments__panel">{{ photo(slug, '(min-width: 900px) 28vw, 32vw', 'moments__img', alt='') }}</div>
           <p class="moments__word">{{ item }}</p>
@@ -204,7 +204,7 @@
       </header>
       <div class="foryou__grid">
         <figure class="arch foryou__figure" data-view>
-          <div class="arch__frame">{{ photo('rider', '(min-width: 900px) 38vw, 86vw', 'arch__img') }}</div>
+          <div class="arch__frame">{{ photo('white-horse', '(min-width: 900px) 38vw, 86vw', 'arch__img') }}</div>
         </figure>
         <div class="foryou__text">
           <p class="dropcap" data-view>{{ fy.text }}</p>

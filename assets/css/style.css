@@ -283,7 +283,7 @@ mark.todo { background: #fff2b3; color: #5a4500; padding: 0 .35em; font-size: .7
 .moments__item { --o: clamp(0, calc((var(--p, 1) + .1 - var(--i) * .22) / .3), 1); }
 .moments__panel { height: clamp(260px, 52svh, 620px); overflow: hidden; background: var(--ivory-2); clip-path: inset(calc(50% * (1 - var(--o))) 0 calc(50% * (1 - var(--o))) 0 round 999px 999px 3px 3px); }
 .moments__img { width: 100%; height: 100%; object-fit: cover; transform: scale(calc((1.28 - var(--o) * .28) * var(--zoom, 1))); transform-origin: var(--fx, 50%) var(--fy, 50%); object-position: var(--fx, 50%) var(--fy, 50%); }
-.moments__item--1 { --fx: 66%; --fy: 82%; --zoom: 1.5; }
+.moments__item--1 { --fx: 62%; --fy: 30%; --zoom: 1.15; }
 .moments__item--2 { --fx: 58%; --fy: 38%; --zoom: 1.7; }
 .moments__item--3 { --fx: 72%; --fy: 74%; --zoom: 1.45; }
 .moments__word { margin-top: 2.4svh; text-align: center; font-family: var(--serif); font-style: italic; font-size: clamp(1.1rem, .8rem + 1.4vw, 2.2rem); color: var(--navy); opacity: var(--o); transform: translateY(calc((1 - var(--o)) * 16px)); }
